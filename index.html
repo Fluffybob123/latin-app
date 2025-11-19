@@ -77,22 +77,27 @@
     }
     footer { margin: 18px 0; color: var(--muted); font-size: 12px; text-align: center; }
 
-    @media (min-width: 900px) {
-      .grid { grid-template-columns: 1fr 1fr; }
-    }
+@media (max-width: 900px) {
+  .filters {
+    display: none; /* or use collapsible */
+  }
 
-    @media (max-width: 768px) {
-      .card { padding: 10px; }
-      .latin { font-size: 18px; }
-      .pp, .meaning, .meta, .notes { font-size: 14px; }
-      .meta { flex-direction: column; gap: 4px; }
-    }
+  .search-bar {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 
-    @media (max-width: 425px) {
-      .card { padding: 8px; }
-      .latin { font-size: 16px; }
-      .pp, .meaning, .meta, .notes { font-size: 13px; }
-      .meta { flex-direction: column; gap: 2px; }
+  .vocab-entry {
+    display: block;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .vocab-entry .latin,
+  .vocab-entry .meaning {
+    font-size: 16px;
+  }
+}
     }
   </style>
 </head>
@@ -264,3 +269,4 @@
   </script>
 </body>
 </html>
+
