@@ -69,63 +69,31 @@
     .pp { font-size: 13px; color: var(--muted); }
     .meaning { font-size: 14px; line-height: 1.4; }
     .meta { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+    .notes { font-size: 13px; color: var(--muted); font-style: italic; }
     .count { font-size: 12px; color: var(--muted); margin-top: 6px; }
     .no-results {
       border: 1px dashed var(--border); border-radius: 12px;
       padding: 16px; color: var(--muted); text-align: center;
     }
     footer { margin: 18px 0; color: var(--muted); font-size: 12px; text-align: center; }
-    @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+
+    @media (min-width: 900px) {
+      .grid { grid-template-columns: 1fr 1fr; }
+    }
+
     @media (max-width: 768px) {
-  .filters {
-    display: none; /* or use collapsible */
-  }
+      .card { padding: 10px; }
+      .latin { font-size: 18px; }
+      .pp, .meaning, .meta, .notes { font-size: 14px; }
+      .meta { flex-direction: column; gap: 4px; }
+    }
 
-  .search-bar {
-    width: 100%;
-    margin-bottom: 1rem;
-  }
-
-  .vocab-entry {
-    display: block;
-    padding: 1rem;
-    border-bottom: 1px solid #ccc;
-  }
-
-  .vocab-entry .latin,
-  .vocab-entry .meaning {
-    font-size: 16px;
-  }
-}
-/*@media (min-width: 426px) and (max-width: 768px) {
-  .layout {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 1rem;
-  }
-
-  .filters {
-    display: block;
-    position: sticky;
-    top: 0;
-  }
-
-  .vocab-entry {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.75rem;
-    border-bottom: 1px solid #ddd;
-  }
-
-  .latin {
-    font-weight: bold;
-  }
-
-  .meaning {
-    color: #555;
-  }
-}*/
-
+    @media (max-width: 425px) {
+      .card { padding: 8px; }
+      .latin { font-size: 16px; }
+      .pp, .meaning, .meta, .notes { font-size: 13px; }
+      .meta { flex-direction: column; gap: 2px; }
+    }
   </style>
 </head>
 <body>
@@ -160,143 +128,139 @@
     </div>
 
     <footer>
-      Built by Elijah. Latin data from *Second Year Latin*. Works offline.
+      Built by Elijah. Latin data from <em>Second Year Latin</em>. Works offline.
     </footer>
   </div>
+
   <script>
-  // --- UI refs ---
-  const qEl = document.getElementById('q');
-  const resultsEl = document.getElementById('results');
-  const emptyEl = document.getElementById('empty');
-  const countEl = document.getElementById('count');
-  const chipEls = Array.from(document.querySelectorAll('.chip'));
-  const clearBtn = document.getElementById('clear');
+    const qEl = document.getElementById('q');
+    const resultsEl = document.getElementById('results');
+    const emptyEl = document.getElementById('empty');
+    const countEl = document.getElementById('count');
+    const chipEls = Array.from(document.querySelectorAll('.chip'));
+    const clearBtn = document.getElementById('clear');
 
-  let DATA = [];
-  let currentFilter = 'all';
+    let DATA = [];
+    let currentFilter = 'all';
 
-  // --- Normalise text for searching ---
-  function norm(s = '') {
-    return String(s)
-      .toLowerCase()
-      .normalize('NFD')
-      .replace(/[\u0300-\u036f]/g, '') // remove diacritics
-      .replace(/[“”‘’'"]/g, '') // strip quotes
-      .trim();
-  }
-
-  // --- Matching logic ---
-  function matches(entry, query, filter) {
-    const nq = norm(query).replace(/^[\-\s]+|[\-\s]+$/g, ''); // strip leading/trailing hyphens/spaces
-    const inFilter = (filter === 'all') || ((entry.pos || '').startsWith(filter));
-    if (!inFilter) return false;
-    if (!nq) return true;
-
-    const latin = norm(entry.latin || '');
-    const pp = (entry.pp || []).map(norm).join(' ');
-    const endings = (entry.endings || []).map(norm).join(' ');
-    const meaning = norm(entry.meaning || '');
-
-    return (
-      latin.includes(nq) ||
-      pp.includes(nq) ||
-      endings.includes(nq) ||
-      meaning.includes(nq)
-    );
-  }
-
-  // --- Render results ---
-  function render() {
-    const q = qEl.value || '';
-    const visible = DATA.filter(e => matches(e, q, currentFilter));
-    resultsEl.innerHTML = '';
-    if (!visible.length) {
-      emptyEl.style.display = 'block';
-      countEl.textContent = '';
-      return;
+    function norm(s = '') {
+      return String(s)
+        .toLowerCase()
+        .normalize('NFD')
+        .replace(/[\u0300-\u036f]/g, '')
+        .replace(/[“”‘’'"]/g, '')
+        .trim();
     }
-    emptyEl.style.display = 'none';
-    countEl.textContent = `${visible.length} / ${DATA.length} entries`;
 
-    const frag = document.createDocumentFragment();
-    visible.forEach(entry => {
-      const card = document.createElement('div');
-      card.className = 'card';
+    function matches(entry, query, filter) {
+      const nq = norm(query).replace(/^[\-\s]+|[\-\s]+$/g, '');
+      const inFilter = (filter === 'all') || ((entry.pos || '').startsWith(filter));
+      if (!inFilter) return false;
+      if (!nq) return true;
 
-      const head = document.createElement('div');
-      head.className = 'head';
+      const latin = norm(entry.latin || '');
+      const pp = (entry.pp || []).map(norm).join(' ');
+      const endings = (entry.endings || []).map(norm).join(' ');
+      const meaning = norm(entry.meaning || '');
 
-      const latinSpan = document.createElement('div');
-      latinSpan.className = 'latin';
-      latinSpan.textContent = entry.latin || '';
-
-      const posSpan = document.createElement('div');
-      posSpan.className = 'pos';
-      posSpan.textContent = entry.pos || '';
-
-      head.appendChild(latinSpan);
-      head.appendChild(posSpan);
-
-      const pp = document.createElement('div');
-      pp.className = 'pp';
-      if (entry.pp && entry.pp.length) pp.textContent = entry.pp.join(' • ');
-
-      const meaning = document.createElement('div');
-      meaning.className = 'meaning';
-      meaning.textContent = entry.meaning || '';
-
-      const meta = document.createElement('div');
-      meta.className = 'meta';
-      if (entry.chapter) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.chapter }));
-      if (entry.frequency) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.frequency }));
-
-      card.appendChild(head);
-      if (pp.textContent) card.appendChild(pp);
-      card.appendChild(meaning);
-      card.appendChild(meta);
-
-      frag.appendChild(card);
-    });
-
-    resultsEl.appendChild(frag);
-  }
-
-  // --- Load JSON ---
-  async function loadData() {
-    try {
-      const res = await fetch('latin_vocab.json');
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      DATA = await res.json();
-      render();
-    } catch (err) {
-      console.error('Error loading vocab file:', err);
-      emptyEl.style.display = 'block';
-      emptyEl.textContent = 'Failed to load latin_vocab.json. Make sure the folder is served over HTTP (python -m http.server) and open the page via http://localhost:8000/';
-      countEl.textContent = '';
+      return (
+        latin.includes(nq) ||
+        pp.includes(nq) ||
+        endings.includes(nq) ||
+        meaning.includes(nq)
+      );
     }
-  }
 
-  // --- UI events ---
-  qEl.addEventListener('input', render);
-  clearBtn.addEventListener('click', () => {
-    qEl.value = '';
-    render();
-  });
+    function render() {
+      const q = qEl.value || '';
+      const visible = DATA.filter(e => matches(e, q, currentFilter));
+      resultsEl.innerHTML = '';
+      if (!visible.length) {
+        emptyEl.style.display = 'block';
+        countEl.textContent = '';
+        return;
+      }
+      emptyEl.style.display = 'none';
+      countEl.textContent = `${visible.length} / ${DATA.length} entries`;
 
-  chipEls.forEach(chip => {
-    chip.addEventListener('click', () => {
-      chipEls.forEach(c => c.classList.remove('active'));
-      chip.classList.add('active');
-      currentFilter = chip.dataset.filter || 'all';
+      const frag = document.createDocumentFragment();
+      visible.forEach(entry => {
+        const card = document.createElement('div');
+        card.className = 'card';
+
+        const head = document.createElement('div');
+        head.className = 'head';
+
+        const latinSpan = document.createElement('div');
+        latinSpan.className = 'latin';
+        latinSpan.textContent = entry.latin || '';
+
+        const posSpan = document.createElement('div');
+        posSpan.className = 'pos';
+        posSpan.textContent = entry.pos || '';
+
+        head.appendChild(latinSpan);
+        head.appendChild(posSpan);
+
+        const pp = document.createElement('div');
+        pp.className = 'pp';
+        if (entry.pp && entry.pp.length) pp.textContent = entry.pp.join(' • ');
+
+        const meaning = document.createElement('div');
+        meaning.className = 'meaning';
+        meaning.textContent = entry.meaning || '';
+
+        const meta = document.createElement('div');
+        meta.className = 'meta';
+        if (entry.chapter) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.chapter }));
+        if (entry.frequency) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.frequency }));
+
+        const notes = document.createElement('div');
+        notes.className = 'notes';
+        if (entry.notes) notes.textContent = entry.notes;
+
+        card.appendChild(head);
+        if (pp.textContent) card.appendChild(pp);
+        card.appendChild(meaning);
+        card.appendChild(meta);
+        if (notes.textContent) card.appendChild(notes);
+
+        frag.appendChild(card);
+      });
+
+      resultsEl.appendChild(frag);
+    }
+
+    async function loadData() {
+      try {
+        const res = await fetch('latin_vocab.json');
+        if (!res.ok) throw new Error('HTTP ' + res.status);
+        DATA = await res.json();
+        render();
+      } catch (err) {
+        console.error('Error loading vocab file:', err);
+        emptyEl.style.display = 'block';
+        emptyEl.textContent = 'Failed to load latin_vocab.json. Make sure the folder is served over HTTP (e.g., python -m http.server) and open the page via http://localhost:8000/';
+        countEl.textContent = '';
+      }
+    }
+
+    qEl.addEventListener('input', render);
+    clearBtn.addEventListener('click', () => {
+      qEl.value = '';
       render();
     });
-  });
 
-  // --- Start ---
-  loadData();
-</script>
+    chipEls.forEach(chip => {
+      chip.addEventListener('click', () => {
+        chipEls.forEach(c => c.classList.remove('active'));
+        chip.classList.add('active');
+        currentFilter = chip.dataset.filter || 'all';
+        render();
+      });
+    });
+
+    loadData();
+  </script>
 </body>
 </html>
-
-
-
