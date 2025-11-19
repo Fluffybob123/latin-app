@@ -1,0 +1,4607 @@
+[
+  {
+    "latin": "amo",
+    "pos": "verb",
+    "pp": ["amo", "amare", "amavi", "amatus"],
+    "endings": ["amo", "amas", "amat", "amamus", "amatis", "amant"],
+    "meaning": "love",
+    "notes": "1st conjugation verb",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "puella",
+    "pos": "noun",
+    "endings": ["puella", "puellae", "puellam", "puellae", "puellarum", "puellis"],
+    "meaning": "girl",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "dominus",
+    "pos": "noun",
+    "endings": ["dominus", "domini", "dominum", "domini", "dominorum", "dominis"],
+    "meaning": "master; lord",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "servus",
+    "pos": "noun",
+    "endings": ["servus", "servi", "servum", "servi", "servorum", "servis"],
+    "meaning": "slave; servant",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "rosa",
+    "pos": "noun",
+    "endings": ["rosa", "rosae", "rosam", "rosae", "rosarum", "rosis"],
+    "meaning": "rose",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "bonus",
+    "pos": "adj",
+    "endings": ["bonus", "bona", "bonum", "boni", "bonae", "bonorum", "bonarum"],
+    "meaning": "good",
+    "notes": "1st/2nd declension adjective",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "magnus",
+    "pos": "adj",
+    "endings": ["magnus", "magna", "magnum", "magni", "magnae", "magnorum", "magnarum"],
+    "meaning": "great; large",
+    "notes": "1st/2nd declension adjective",
+    "frequency": "common",
+    "chapter": "Lesson 1"
+  },
+  {
+    "latin": "video",
+    "pos": "verb",
+    "pp": ["video", "videre", "vidi", "visus"],
+    "endings": ["video", "vides", "videt", "videmus", "videtis", "vident"],
+    "meaning": "see",
+    "notes": "2nd conjugation verb",
+    "frequency": "common",
+    "chapter": "Lesson 2"
+  },
+  {
+    "latin": "rex",
+    "pos": "noun",
+    "endings": ["rex", "regis", "regem", "reges", "regum", "regibus"],
+    "meaning": "king",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 2"
+  },
+  {
+    "latin": "urbs",
+    "pos": "noun",
+    "endings": ["urbs", "urbis", "urbem", "urbes", "urbium", "urbibus"],
+    "meaning": "city",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 2"
+  },
+  {
+    "latin": "pater",
+    "pos": "noun",
+    "endings": ["pater", "patris", "patrem", "patres", "patrum", "patribus"],
+    "meaning": "father",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "mater",
+    "pos": "noun",
+    "endings": ["mater", "matris", "matrem", "matres", "matrum", "matribus"],
+    "meaning": "mother",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "frater",
+    "pos": "noun",
+    "endings": ["frater", "fratris", "fratrem", "fratres", "fratrum", "fratribus"],
+    "meaning": "brother",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "soror",
+    "pos": "noun",
+    "endings": ["soror", "sororis", "sororem", "sorores", "sororum", "sororibus"],
+    "meaning": "sister",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "filius",
+    "pos": "noun",
+    "endings": ["filius", "filii", "filium", "filii", "filiorum", "filiis"],
+    "meaning": "son",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "filia",
+    "pos": "noun",
+    "endings": ["filia", "filiae", "filiam", "filiae", "filiarum", "filiis"],
+    "meaning": "daughter",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 3"
+  },
+  {
+    "latin": "liber",
+    "pos": "noun",
+    "endings": ["liber", "libri", "librum", "libri", "librorum", "libris"],
+    "meaning": "book",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 4"
+  },
+  {
+    "latin": "aqua",
+    "pos": "noun",
+    "endings": ["aqua", "aquae", "aquam", "aquae", "aquarum", "aquis"],
+    "meaning": "water",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 4"
+  },
+  {
+    "latin": "terra",
+    "pos": "noun",
+    "endings": ["terra", "terrae", "terram", "terrae", "terrarum", "terris"],
+    "meaning": "earth; land",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 4"
+  },
+  {
+    "latin": "caelum",
+    "pos": "noun",
+    "endings": ["caelum", "caeli", "caelum", "caeli", "caelorum", "caelis"],
+    "meaning": "sky; heaven",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 4"
+  },
+  {
+    "latin": "bellum",
+    "pos": "noun",
+    "endings": ["bellum", "belli", "bellum", "bella", "bellorum", "bellis"],
+    "meaning": "war",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 4"
+  },
+  {
+    "latin": "navis",
+    "pos": "noun",
+    "endings": ["navis", "navis", "navem", "naves", "navium", "navibus"],
+    "meaning": "ship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 5"
+  },
+  {
+    "latin": "equus",
+    "pos": "noun",
+    "endings": ["equus", "equi", "equum", "equi", "equorum", "equis"],
+    "meaning": "horse",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 5"
+  },
+  {
+    "latin": "gladius",
+    "pos": "noun",
+    "endings": ["gladius", "gladii", "gladium", "gladii", "gladiorum", "gladiis"],
+    "meaning": "sword",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 5"
+  },
+  {
+    "latin": "miles",
+    "pos": "noun",
+    "endings": ["miles", "militis", "militem", "milites", "militum", "militibus"],
+    "meaning": "soldier",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 5"
+  },
+  {
+    "latin": "legio",
+    "pos": "noun",
+    "endings": ["legio", "legionis", "legionem", "legiones", "legionum", "legionibus"],
+    "meaning": "legion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 5"
+  },
+  {
+    "latin": "canis",
+    "pos": "noun",
+    "endings": ["canis", "canis", "canem", "canes", "canum", "canibus"],
+    "meaning": "dog",
+    "notes": "3rd declension noun (common gender)",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "leo",
+    "pos": "noun",
+    "endings": ["leo", "leonis", "leonem", "leones", "leonum", "leonibus"],
+    "meaning": "lion",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "avis",
+    "pos": "noun",
+    "endings": ["avis", "avis", "avem", "aves", "avium", "avibus"],
+    "meaning": "bird",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "corpus",
+    "pos": "noun",
+    "endings": ["corpus", "corporis", "corpus", "corpora", "corporum", "corporibus"],
+    "meaning": "body",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "homo",
+    "pos": "noun",
+    "endings": ["homo", "hominis", "hominem", "homines", "hominum", "hominibus"],
+    "meaning": "man; human being",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "nomen",
+    "pos": "noun",
+    "endings": ["nomen", "nominis", "nomen", "nomina", "nominum", "nominibus"],
+    "meaning": "name",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "tempus",
+    "pos": "noun",
+    "endings": ["tempus", "temporis", "tempus", "tempora", "temporum", "temporibus"],
+    "meaning": "time",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 6"
+  },
+  {
+    "latin": "lux",
+    "pos": "noun",
+    "endings": ["lux", "lucis", "lucem", "luces", "lucum", "lucibus"],
+    "meaning": "light",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "nox",
+    "pos": "noun",
+    "endings": ["nox", "noctis", "noctem", "noctes", "noctium", "noctibus"],
+    "meaning": "night",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "dies",
+    "pos": "noun",
+    "endings": ["dies", "diei", "diem", "dies", "dierum", "diebus"],
+    "meaning": "day",
+    "notes": "5th declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "res",
+    "pos": "noun",
+    "endings": ["res", "rei", "rem", "res", "rerum", "rebus"],
+    "meaning": "thing; matter",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "manus",
+    "pos": "noun",
+    "endings": ["manus", "manus", "manum", "manus", "manuum", "manibus"],
+    "meaning": "hand",
+    "notes": "4th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "cornu",
+    "pos": "noun",
+    "endings": ["cornu", "cornus", "cornu", "cornua", "cornuum", "cornibus"],
+    "meaning": "horn",
+    "notes": "4th declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "domus",
+    "pos": "noun",
+    "endings": ["domus", "domus", "domum", "domus", "domorum", "domibus"],
+    "meaning": "house; home",
+    "notes": "4th declension feminine noun (irregular forms)",
+    "frequency": "common",
+    "chapter": "Lesson 7"
+  },
+  {
+    "latin": "uxor",
+    "pos": "noun",
+    "endings": ["uxor", "uxoris", "uxorem", "uxores", "uxorum", "uxoribus"],
+    "meaning": "wife",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "vir",
+    "pos": "noun",
+    "endings": ["vir", "viri", "virum", "viri", "virorum", "viris"],
+    "meaning": "man",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "vita",
+    "pos": "noun",
+    "endings": ["vita", "vitae", "vitam", "vitae", "vitarum", "vitis"],
+    "meaning": "life",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "vox",
+    "pos": "noun",
+    "endings": ["vox", "vocis", "vocem", "voces", "vocum", "vocibus"],
+    "meaning": "voice",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "verbum",
+    "pos": "noun",
+    "endings": ["verbum", "verbi", "verbum", "verba", "verborum", "verbis"],
+    "meaning": "word",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "veritas",
+    "pos": "noun",
+    "endings": ["veritas", "veritatis", "veritatem", "veritates", "veritatum", "veritatibus"],
+    "meaning": "truth",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 8"
+  },
+  {
+    "latin": "victoria",
+    "pos": "noun",
+    "endings": ["victoria", "victoriae", "victoriam", "victoriae", "victoriarum", "victoriis"],
+    "meaning": "victory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 9"
+  },
+  {
+    "latin": "vulnus",
+    "pos": "noun",
+    "endings": ["vulnus", "vulneris", "vulnus", "vulnera", "vulnerum", "vulneribus"],
+    "meaning": "wound",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 9"
+  },
+  {
+    "latin": "amicus",
+    "pos": "noun",
+    "endings": ["amicus", "amici", "amicum", "amici", "amicorum", "amicis"],
+    "meaning": "friend",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 10"
+  },
+  {
+    "latin": "dea",
+    "pos": "noun",
+    "endings": ["dea", "deae", "deam", "deae", "dearum", "deis"],
+    "meaning": "goddess",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 10"
+  },
+  {
+    "latin": "deus",
+    "pos": "noun",
+    "endings": ["deus", "dei", "deum", "dei", "deorum", "deis"],
+    "meaning": "god",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 10"
+  },
+  {
+    "latin": "caesar",
+    "pos": "noun",
+    "endings": ["Caesar", "Caesaris", "Caesarem", "Caesares", "Caesarum", "Caesaribus"],
+    "meaning": "Caesar",
+    "notes": "3rd declension masculine proper noun",
+    "frequency": "common",
+    "chapter": "Lesson 11"
+  },
+  {
+    "latin": "imperator",
+    "pos": "noun",
+    "endings": ["imperator", "imperatoris", "imperatorem", "imperatores", "imperatorum", "imperatoribus"],
+    "meaning": "commander; general",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 11"
+  },
+  {
+    "latin": "dux",
+    "pos": "noun",
+    "endings": ["dux", "ducis", "ducem", "duces", "ducum", "ducibus"],
+    "meaning": "leader",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 11"
+  },
+  {
+    "latin": "exercitus",
+    "pos": "noun",
+    "endings": ["exercitus", "exercitus", "exercitum", "exercitus", "exercituum", "exercitibus"],
+    "meaning": "army",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 11"
+  },
+  {
+    "latin": "hostis",
+    "pos": "noun",
+    "endings": ["hostis", "hostis", "hostem", "hostes", "hostium", "hostibus"],
+    "meaning": "enemy",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 11"
+  },
+  {
+    "latin": "civis",
+    "pos": "noun",
+    "endings": ["civis", "civis", "civem", "cives", "civium", "civibus"],
+    "meaning": "citizen",
+    "notes": "3rd declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 12"
+  },
+  {
+    "latin": "urbs",
+    "pos": "noun",
+    "endings": ["urbs", "urbis", "urbem", "urbes", "urbium", "urbibus"],
+    "meaning": "city",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 12"
+  },
+  {
+    "latin": "oppidum",
+    "pos": "noun",
+    "endings": ["oppidum", "oppidi", "oppidum", "oppida", "oppidorum", "oppidis"],
+    "meaning": "town",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 12"
+  },
+  {
+    "latin": "mons",
+    "pos": "noun",
+    "endings": ["mons", "montis", "montem", "montes", "montium", "montibus"],
+    "meaning": "mountain",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "flumen",
+    "pos": "noun",
+    "endings": ["flumen", "fluminis", "flumen", "flumina", "fluminum", "fluminibus"],
+    "meaning": "river",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "mare",
+    "pos": "noun",
+    "endings": ["mare", "maris", "mare", "maria", "marium", "maribus"],
+    "meaning": "sea",
+    "notes": "3rd declension neuter noun (i‑stem)",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "via",
+    "pos": "noun",
+    "endings": ["via", "viae", "viam", "viae", "viarum", "viis"],
+    "meaning": "road; way",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "porta",
+    "pos": "noun",
+    "endings": ["porta", "portae", "portam", "portae", "portarum", "portis"],
+    "meaning": "gate",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "castra",
+    "pos": "noun",
+    "endings": ["castra", "castrorum"],
+    "meaning": "camp",
+    "notes": "2nd declension neuter plural noun",
+    "frequency": "common",
+    "chapter": "Lesson 13"
+  },
+  {
+    "latin": "proelium",
+    "pos": "noun",
+    "endings": ["proelium", "proelii", "proelium", "proelia", "proeliorum", "proeliis"],
+    "meaning": "battle",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 14"
+  },
+  {
+    "latin": "arma",
+    "pos": "noun",
+    "endings": ["arma", "armorum"],
+    "meaning": "arms; weapons",
+    "notes": "2nd declension neuter plural noun",
+    "frequency": "common",
+    "chapter": "Lesson 14"
+  },
+  {
+    "latin": "signum",
+    "pos": "noun",
+    "endings": ["signum", "signi", "signum", "signa", "signorum", "signis"],
+    "meaning": "sign; standard",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 14"
+  },
+  {
+    "latin": "legatus",
+    "pos": "noun",
+    "endings": ["legatus", "legati", "legatum", "legati", "legatorum", "legatis"],
+    "meaning": "lieutenant; envoy",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 15"
+  },
+  {
+    "latin": "consilium",
+    "pos": "noun",
+    "endings": ["consilium", "consilii", "consilium", "consilia", "consiliorum", "consiliis"],
+    "meaning": "plan; counsel",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 15"
+  },
+  {
+    "latin": "auxilium",
+    "pos": "noun",
+    "endings": ["auxilium", "auxilii", "auxilium", "auxilia", "auxiliorum", "auxiliis"],
+    "meaning": "help; aid",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 15"
+  },
+  {
+    "latin": "praesidium",
+    "pos": "noun",
+    "endings": ["praesidium", "praesidii", "praesidium", "praesidia", "praesidiorum", "praesidiis"],
+    "meaning": "garrison; protection",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 16"
+  },
+  {
+    "latin": "impedimenta",
+    "pos": "noun",
+    "endings": ["impedimenta", "impedimentorum"],
+    "meaning": "baggage",
+    "notes": "2nd declension neuter plural noun",
+    "frequency": "common",
+    "chapter": "Lesson 16"
+  },
+  {
+    "latin": "numerus",
+    "pos": "noun",
+    "endings": ["numerus", "numeri", "numerum", "numeri", "numerorum", "numeris"],
+    "meaning": "number",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 17"
+  },
+  {
+    "latin": "ordo",
+    "pos": "noun",
+    "endings": ["ordo", "ordinis", "ordinem", "ordines", "ordinum", "ordinibus"],
+    "meaning": "rank; order",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 17"
+  },
+  {
+    "latin": "pars",
+    "pos": "noun",
+    "endings": ["pars", "partis", "partem", "partes", "partium", "partibus"],
+    "meaning": "part",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 17"
+  },
+  {
+    "latin": "collis",
+    "pos": "noun",
+    "endings": ["collis", "collis", "collem", "colles", "collium", "collibus"],
+    "meaning": "hill",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 18"
+  },
+  {
+    "latin": "fines",
+    "pos": "noun",
+    "endings": ["fines", "finum"],
+    "meaning": "territory; boundaries",
+    "notes": "3rd declension masculine plural noun",
+    "frequency": "common",
+    "chapter": "Lesson 18"
+  },
+  {
+    "latin": "iter",
+    "pos": "noun",
+    "endings": ["iter", "itineris", "iter", "itinera", "itinerum", "itineribus"],
+    "meaning": "journey; march; route",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 18"
+  },
+  {
+    "latin": "ager",
+    "pos": "noun",
+    "endings": ["ager", "agri", "agrum", "agri", "agrorum", "agris"],
+    "meaning": "field; territory",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 19"
+  },
+  {
+    "latin": "villa",
+    "pos": "noun",
+    "endings": ["villa", "villae", "villam", "villae", "villarum", "villais"],
+    "meaning": "farmhouse; villa",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 19"
+  },
+  {
+    "latin": "silva",
+    "pos": "noun",
+    "endings": ["silva", "silvae", "silvam", "silvae", "silvarum", "silvis"],
+    "meaning": "forest; woods",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 19"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; reason",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 20"
+  },
+  {
+    "latin": "gratia",
+    "pos": "noun",
+    "endings": ["gratia", "gratiae", "gratiam", "gratiae", "gratiarum", "gratiis"],
+    "meaning": "favor; thanks",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 20"
+  },
+  {
+    "latin": "cura",
+    "pos": "noun",
+    "endings": ["cura", "curae", "curam", "curae", "curarum", "curis"],
+    "meaning": "care; concern",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 20"
+  },
+  {
+    "latin": "gloria",
+    "pos": "noun",
+    "endings": ["gloria", "gloriae", "gloriam", "gloriae", "gloriarum", "gloriis"],
+    "meaning": "glory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 21"
+  },
+  {
+    "latin": "laus",
+    "pos": "noun",
+    "endings": ["laus", "laudis", "laudem", "laudes", "laudum", "laudibus"],
+    "meaning": "praise",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 21"
+  },
+  {
+    "latin": "honor",
+    "pos": "noun",
+    "endings": ["honor", "honoris", "honorem", "honores", "honorum", "honoribus"],
+    "meaning": "honor",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 21"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 22"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 22"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 22"
+  },
+  {
+    "latin": "amor",
+    "pos": "noun",
+    "endings": ["amor", "amoris", "amorem", "amores", "amorum", "amoribus"],
+    "meaning": "love",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 23"
+  },
+  {
+    "latin": "dolor",
+    "pos": "noun",
+    "endings": ["dolor", "doloris", "dolorem", "dolores", "dolorum", "doloribus"],
+    "meaning": "pain; grief",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 23"
+  },
+  {
+    "latin": "gaudium",
+    "pos": "noun",
+    "endings": ["gaudium", "gaudii", "gaudium", "gaudia", "gaudiorum", "gaudiis"],
+    "meaning": "joy",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 23"
+  },
+  {
+    "latin": "ira",
+    "pos": "noun",
+    "endings": ["ira", "irae", "iram", "irae", "irarum", "iris"],
+    "meaning": "anger",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 23"
+  },
+  {
+    "latin": "bellator",
+    "pos": "noun",
+    "endings": ["bellator", "bellatoris", "bellatorem", "bellatores", "bellatorum", "bellatoribus"],
+    "meaning": "warrior",
+    "notes": "3rd declension masculine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 24"
+  },
+  {
+    "latin": "victor",
+    "pos": "noun",
+    "endings": ["victor", "victoris", "victorem", "victores", "victorum", "victoribus"],
+    "meaning": "victor; conqueror",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 24"
+  },
+  {
+    "latin": "hostia",
+    "pos": "noun",
+    "endings": ["hostia", "hostiae", "hostiam", "hostiae", "hostiarum", "hostiis"],
+    "meaning": "sacrificial victim",
+    "notes": "1st declension feminine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 24"
+  },
+  {
+    "latin": "templum",
+    "pos": "noun",
+    "endings": ["templum", "templi", "templum", "templa", "templorum", "templis"],
+    "meaning": "temple",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 25"
+  },
+  {
+    "latin": "altare",
+    "pos": "noun",
+    "endings": ["altare", "altaris", "altare", "altaria", "altarium", "altaribus"],
+    "meaning": "altar",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 25"
+  },
+  {
+    "latin": "sacrificium",
+    "pos": "noun",
+    "endings": ["sacrificium", "sacrificii", "sacrificium", "sacrificia", "sacrificiorum", "sacrificiis"],
+    "meaning": "sacrifice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 25"
+  },
+  {
+    "latin": "religio",
+    "pos": "noun",
+    "endings": ["religio", "religionis", "religionem", "religiones", "religionum", "religionibus"],
+    "meaning": "religion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 25"
+  },
+  {
+    "latin": "fides",
+    "pos": "noun",
+    "endings": ["fides", "fidei", "fidem", "fides", "fiderum", "fidibus"],
+    "meaning": "faith; trust",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 26"
+  },
+  {
+    "latin": "spiritus",
+    "pos": "noun",
+    "endings": ["spiritus", "spiritus", "spiritum", "spiritus", "spirituum", "spiritibus"],
+    "meaning": "spirit; breath",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 26"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "mind; soul",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 26"
+  },
+  {
+    "latin": "vita",
+    "pos": "noun",
+    "endings": ["vita", "vitae", "vitam", "vitae", "vitarum", "vitis"],
+    "meaning": "life",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 27"
+  },
+  {
+    "latin": "mors",
+    "pos": "noun",
+    "endings": ["mors", "mortis", "mortem", "mortes", "mortium", "mortibus"],
+    "meaning": "death",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 27"
+  },
+  {
+    "latin": "bellum",
+    "pos": "noun",
+    "endings": ["bellum", "belli", "bellum", "bella", "bellorum", "bellis"],
+    "meaning": "war",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 27"
+  },
+  {
+    "latin": "pax",
+    "pos": "noun",
+    "endings": ["pax", "pacis", "pacem", "paces", "pacum", "pacibus"],
+    "meaning": "peace",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 27"
+  },
+  {
+    "latin": "amicitia",
+    "pos": "noun",
+    "endings": ["amicitia", "amicitiae", "amicitiam", "amicitiae", "amicitiarum", "amicitiis"],
+    "meaning": "friendship",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 28"
+  },
+  {
+    "latin": "inimicus",
+    "pos": "noun",
+    "endings": ["inimicus", "inimici", "inimicum", "inimici", "inimicorum", "inimicis"],
+    "meaning": "enemy (personal)",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 28"
+  },
+  {
+    "latin": "hostis",
+    "pos": "noun",
+    "endings": ["hostis", "hostis", "hostem", "hostes", "hostium", "hostibus"],
+    "meaning": "enemy (public)",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 28"
+  },
+  {
+    "latin": "civitas",
+    "pos": "noun",
+    "endings": ["civitas", "civitatis", "civitatem", "civitates", "civitatum", "civitatibus"],
+    "meaning": "state; citizenship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 29"
+  },
+  {
+    "latin": "populus",
+    "pos": "noun",
+    "endings": ["populus", "populi", "populum", "populi", "populorum", "populis"],
+    "meaning": "people; nation",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 29"
+  },
+  {
+    "latin": "gens",
+    "pos": "noun",
+    "endings": ["gens", "gentis", "gentem", "gentes", "gentium", "gentibus"],
+    "meaning": "tribe; clan",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 29"
+  },
+  {
+    "latin": "regnum",
+    "pos": "noun",
+    "endings": ["regnum", "regni", "regnum", "regna", "regnorum", "regnis"],
+    "meaning": "kingdom",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 30"
+  },
+  {
+    "latin": "imperium",
+    "pos": "noun",
+    "endings": ["imperium", "imperii", "imperium", "imperia", "imperiorum", "imperiis"],
+    "meaning": "command; power; empire",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 30"
+  },
+  {
+    "latin": "provincia",
+    "pos": "noun",
+    "endings": ["provincia", "provinciae", "provinciam", "provinciae", "provinciarum", "provinciis"],
+    "meaning": "province",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 30"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; health; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 31"
+  },
+  {
+    "latin": "consul",
+    "pos": "noun",
+    "endings": ["consul", "consulis", "consulem", "consules", "consulum", "consulibus"],
+    "meaning": "consul",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 31"
+  },
+  {
+    "latin": "senatus",
+    "pos": "noun",
+    "endings": ["senatus", "senatus", "senatum", "senatus", "senatuum", "senatibus"],
+    "meaning": "senate",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 31"
+  },
+  {
+    "latin": "cursus",
+    "pos": "noun",
+    "endings": ["cursus", "cursus", "cursum", "cursus", "cursuum", "cursibus"],
+    "meaning": "course; running",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 32"
+  },
+  {
+    "latin": "usus",
+    "pos": "noun",
+    "endings": ["usus", "usus", "usum", "usus", "usuum", "usibus"],
+    "meaning": "use; practice",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 32"
+  },
+  {
+    "latin": "fructus",
+    "pos": "noun",
+    "endings": ["fructus", "fructus", "fructum", "fructus", "fructuum", "fructibus"],
+    "meaning": "fruit; profit",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 32"
+  },
+  {
+    "latin": "dominus",
+    "pos": "noun",
+    "endings": ["dominus", "domini", "dominum", "domini", "dominorum", "dominis"],
+    "meaning": "lord; master",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 33"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 33"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 33"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 34"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 34"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 34"
+  },
+  {
+    "latin": "officium",
+    "pos": "noun",
+    "endings": ["officium", "officii", "officium", "officia", "officiorum", "officiis"],
+    "meaning": "duty; service",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 35"
+  },
+  {
+    "latin": "munus",
+    "pos": "noun",
+    "endings": ["munus", "muneris", "munus", "munera", "munerum", "muneribus"],
+    "meaning": "gift; duty",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 35"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 36"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 36"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 37"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 37"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 37"
+  },
+  {
+    "latin": "veritas",
+    "pos": "noun",
+    "endings": ["veritas", "veritatis", "veritatem", "veritates", "veritatum", "veritatibus"],
+    "meaning": "truth",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 38"
+  },
+  {
+    "latin": "lex",
+    "pos": "noun",
+    "endings": ["lex", "legis", "legem", "leges", "legum", "legibus"],
+    "meaning": "law",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 39"
+  },
+  {
+    "latin": "ius",
+    "pos": "noun",
+    "endings": ["ius", "iuris", "ius", "iura", "iurum", "iuribus"],
+    "meaning": "right; justice",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 39"
+  },
+  {
+    "latin": "crimen",
+    "pos": "noun",
+    "endings": ["crimen", "criminis", "crimen", "crimina", "criminum", "criminibus"],
+    "meaning": "crime; accusation",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 39"
+  },
+  {
+    "latin": "poena",
+    "pos": "noun",
+    "endings": ["poena", "poenae", "poenam", "poenae", "poenarum", "poenis"],
+    "meaning": "punishment; penalty",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 40"
+  },
+  {
+    "latin": "supplicium",
+    "pos": "noun",
+    "endings": ["supplicium", "supplicii", "supplicium", "supplicia", "suppliciorum", "suppliciis"],
+    "meaning": "execution; punishment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 40"
+  },
+  {
+    "latin": "carcer",
+    "pos": "noun",
+    "endings": ["carcer", "carceris", "carcerem", "carceres", "carcerum", "carceribus"],
+    "meaning": "prison",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 40"
+  },
+  {
+    "latin": "judex",
+    "pos": "noun",
+    "endings": ["judex", "judicis", "judicem", "judices", "judicum", "judicibus"],
+    "meaning": "judge",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 41"
+  },
+  {
+    "latin": "testis",
+    "pos": "noun",
+    "endings": ["testis", "testis", "testem", "testes", "testium", "testibus"],
+    "meaning": "witness",
+    "notes": "3rd declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 41"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; case",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 41"
+  },
+  {
+    "latin": "argumentum",
+    "pos": "noun",
+    "endings": ["argumentum", "argumenti", "argumentum", "argumenta", "argumentorum", "argumentis"],
+    "meaning": "argument; proof",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 41"
+  },
+  {
+    "latin": "verdictum",
+    "pos": "noun",
+    "endings": ["verdictum", "verdicti", "verdictum", "verdicta", "verdictorum", "verdictis"],
+    "meaning": "verdict",
+    "notes": "2nd declension neuter noun",
+    "frequency": "rare",
+    "chapter": "Lesson 42"
+  },
+  {
+    "latin": "sententia",
+    "pos": "noun",
+    "endings": ["sententia", "sententiae", "sententiam", "sententiae", "sententiarum", "sententiis"],
+    "meaning": "opinion; sentence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 42"
+  },
+  {
+    "latin": "judicium",
+    "pos": "noun",
+    "endings": ["judicium", "judicii", "judicium", "judicia", "judiciorum", "judiciis"],
+    "meaning": "trial; judgment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 42"
+  },
+  {
+    "latin": "accusatio",
+    "pos": "noun",
+    "endings": ["accusatio", "accusationis", "accusationem", "accusationes", "accusationum", "accusationibus"],
+    "meaning": "accusation",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 43"
+  },
+  {
+    "latin": "defensio",
+    "pos": "noun",
+    "endings": ["defensio", "defensionis", "defensionem", "defensiones", "defensionum", "defensionibus"],
+    "meaning": "defense",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 43"
+  },
+  {
+    "latin": "orator",
+    "pos": "noun",
+    "endings": ["orator", "oratoris", "oratorem", "oratores", "oratorum", "oratoribus"],
+    "meaning": "speaker; orator",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 43"
+  },
+  {
+    "latin": "eloquentia",
+    "pos": "noun",
+    "endings": ["eloquentia", "eloquentiae", "eloquentiam", "eloquentiae", "eloquentiarum", "eloquentiis"],
+    "meaning": "eloquence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 43"
+  },
+  {
+    "latin": "argumentatio",
+    "pos": "noun",
+    "endings": ["argumentatio", "argumentationis", "argumentationem", "argumentationes", "argumentationum", "argumentationibus"],
+    "meaning": "argumentation",
+    "notes": "3rd declension feminine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 44"
+  },
+  {
+    "latin": "persuasio",
+    "pos": "noun",
+    "endings": ["persuasio", "persuasionis", "persuasionem", "persuasiones", "persuasionum", "persuasionibus"],
+    "meaning": "persuasion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 44"
+  },
+  {
+    "latin": "ratio",
+    "pos": "noun",
+    "endings": ["ratio", "rationis", "rationem", "rationes", "rationum", "rationibus"],
+    "meaning": "reason; method",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 44"
+  },
+  {
+    "latin": "bellator",
+    "pos": "noun",
+    "endings": ["bellator", "bellatoris", "bellatorem", "bellatores", "bellatorum", "bellatoribus"],
+    "meaning": "warrior",
+    "notes": "3rd declension masculine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 45"
+  },
+  {
+    "latin": "victor",
+    "pos": "noun",
+    "endings": ["victor", "victoris", "victorem", "victores", "victorum", "victoribus"],
+    "meaning": "victor; conqueror",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 45"
+  },
+  {
+    "latin": "hostia",
+    "pos": "noun",
+    "endings": ["hostia", "hostiae", "hostiam", "hostiae", "hostiarum", "hostiis"],
+    "meaning": "sacrificial victim",
+    "notes": "1st declension feminine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 45"
+  },
+  {
+    "latin": "templum",
+    "pos": "noun",
+    "endings": ["templum", "templi", "templum", "templa", "templorum", "templis"],
+    "meaning": "temple",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 46"
+  },
+  {
+    "latin": "altare",
+    "pos": "noun",
+    "endings": ["altare", "altaris", "altare", "altaria", "altarium", "altaribus"],
+    "meaning": "altar",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 46"
+  },
+  {
+    "latin": "sacrificium",
+    "pos": "noun",
+    "endings": ["sacrificium", "sacrificii", "sacrificium", "sacrificia", "sacrificiorum", "sacrificiis"],
+    "meaning": "sacrifice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 46"
+  },
+  {
+    "latin": "religio",
+    "pos": "noun",
+    "endings": ["religio", "religionis", "religionem", "religiones", "religionum", "religionibus"],
+    "meaning": "religion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 46"
+  },
+  {
+    "latin": "fides",
+    "pos": "noun",
+    "endings": ["fides", "fidei", "fidem", "fides", "fiderum", "fidibus"],
+    "meaning": "faith; trust",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 47"
+  },
+  {
+    "latin": "spiritus",
+    "pos": "noun",
+    "endings": ["spiritus", "spiritus", "spiritum", "spiritus", "spirituum", "spiritibus"],
+    "meaning": "spirit; breath",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 47"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "mind; soul",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 47"
+  },
+  {
+    "latin": "mens",
+    "pos": "noun",
+    "endings": ["mens", "mentis", "mentem", "mentes", "mentium", "mentibus"],
+    "meaning": "mind",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 48"
+  },
+  {
+    "latin": "memoria",
+    "pos": "noun",
+    "endings": ["memoria", "memoriae", "memoriam", "memoriae", "memoriarum", "memoriis"],
+    "meaning": "memory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 48"
+  },
+  {
+    "latin": "ingenium",
+    "pos": "noun",
+    "endings": ["ingenium", "ingenii", "ingenium", "ingenia", "ingeniorum", "ingeniis"],
+    "meaning": "talent; nature",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 48"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 49"
+  },
+  {
+    "latin": "vitium",
+    "pos": "noun",
+    "endings": ["vitium", "vitii", "vitium", "vitia", "vitiorum", "vitiis"],
+    "meaning": "fault; vice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 49"
+  },
+  {
+    "latin": "peccatum",
+    "pos": "noun",
+    "endings": ["peccatum", "peccati", "peccatum", "peccata", "peccatorum", "peccatis"],
+    "meaning": "sin",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 49"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; excellence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 50"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 50"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 50"
+  },
+  {
+    "latin": "luxuria",
+    "pos": "noun",
+    "endings": ["luxuria", "luxuriae", "luxuriam", "luxuriae", "luxuriarum", "luxuriis"],
+    "meaning": "luxury; extravagance",
+    "notes": "1st declension feminine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 51"
+  },
+  {
+    "latin": "avaritia",
+    "pos": "noun",
+    "endings": ["avaritia", "avaritiae", "avaritiam", "avaritiae", "avaritiarum", "avaritiis"],
+    "meaning": "greed",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 51"
+  },
+  {
+    "latin": "superbia",
+    "pos": "noun",
+    "endings": ["superbia", "superbiae", "superbiam", "superbiae", "superbiarum", "superbiis"],
+    "meaning": "pride; arrogance",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 51"
+  },
+  {
+    "latin": "humilitas",
+    "pos": "noun",
+    "endings": ["humilitas", "humilitatis", "humilitatem", "humilitates", "humilitatum", "humilitatibus"],
+    "meaning": "humility",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 52"
+  },
+  {
+    "latin": "patientia",
+    "pos": "noun",
+    "endings": ["patientia", "patientiae", "patientiam", "patientiae", "patientiarum", "patientiis"],
+    "meaning": "patience",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 52"
+  },
+  {
+    "latin": "fortitudo",
+    "pos": "noun",
+    "endings": ["fortitudo", "fortitudinis", "fortitudinem", "fortitudines", "fortitudinum", "fortitudinibus"],
+    "meaning": "bravery; strength",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 52"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 53"
+  },
+  {
+    "latin": "prudentia",
+    "pos": "noun",
+    "endings": ["prudentia", "prudentiae", "prudentiam", "prudentiae", "prudentiarum", "prudentiis"],
+    "meaning": "prudence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 53"
+  },
+  {
+    "latin": "temperantia",
+    "pos": "noun",
+    "endings": ["temperantia", "temperantiae", "temperantiam", "temperantiae", "temperantiarum", "temperantiis"],
+    "meaning": "moderation; temperance",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 53"
+  },
+  {
+    "latin": "iustitia",
+    "pos": "noun",
+    "endings": ["iustitia", "iustitiae", "iustitiam", "iustitiae", "iustitiarum", "iustitiis"],
+    "meaning": "justice",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 53"
+  },
+  {
+    "latin": "caritas",
+    "pos": "noun",
+    "endings": ["caritas", "caritatis", "caritatem", "caritates", "caritatum", "caritatibus"],
+    "meaning": "charity; love",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 54"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 54"
+  },
+  {
+    "latin": "fides",
+    "pos": "noun",
+    "endings": ["fides", "fidei", "fidem", "fides", "fiderum", "fidibus"],
+    "meaning": "faith",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 54"
+  },
+  {
+    "latin": "gratia",
+    "pos": "noun",
+    "endings": ["gratia", "gratiae", "gratiam", "gratiae", "gratiarum", "gratiis"],
+    "meaning": "grace; favor",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 54"
+  },
+  {
+    "latin": "misericordia",
+    "pos": "noun",
+    "endings": ["misericordia", "misericordiae", "misericordiam", "misericordiae", "misericordiarum", "misericordiis"],
+    "meaning": "mercy; compassion",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 55"
+  },
+  {
+    "latin": "pietas",
+    "pos": "noun",
+    "endings": ["pietas", "pietatis", "pietatem", "pietates", "pietatum", "pietatibus"],
+    "meaning": "piety; devotion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 55"
+  },
+  {
+    "latin": "religio",
+    "pos": "noun",
+    "endings": ["religio", "religionis", "religionem", "religiones", "religionum", "religionibus"],
+    "meaning": "religion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 55"
+  },
+  {
+    "latin": "cultus",
+    "pos": "noun",
+    "endings": ["cultus", "cultus", "cultum", "cultus", "cultuum", "cultibus"],
+    "meaning": "worship; culture",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 55"
+  },
+  {
+    "latin": "sanctitas",
+    "pos": "noun",
+    "endings": ["sanctitas", "sanctitatis", "sanctitatem", "sanctitates", "sanctitatum", "sanctitatibus"],
+    "meaning": "holiness",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 56"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; excellence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 56"
+  },
+  {
+    "latin": "dominus",
+    "pos": "noun",
+    "endings": ["dominus", "domini", "dominum", "domini", "dominorum", "dominis"],
+    "meaning": "lord; master",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 57"
+  },
+  {
+    "latin": "servus",
+    "pos": "noun",
+    "endings": ["servus", "servi", "servum", "servi", "servorum", "servis"],
+    "meaning": "slave; servant",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 57"
+  },
+  {
+    "latin": "rex",
+    "pos": "noun",
+    "endings": ["rex", "regis", "regem", "reges", "regum", "regibus"],
+    "meaning": "king",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 58"
+  },
+  {
+    "latin": "regina",
+    "pos": "noun",
+    "endings": ["regina", "reginae", "reginam", "reginae", "reginarum", "reginis"],
+    "meaning": "queen",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 58"
+  },
+  {
+    "latin": "imperator",
+    "pos": "noun",
+    "endings": ["imperator", "imperatoris", "imperatorem", "imperatores", "imperatorum", "imperatoribus"],
+    "meaning": "commander; general",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 59"
+  },
+  {
+    "latin": "dux",
+    "pos": "noun",
+    "endings": ["dux", "ducis", "ducem", "duces", "ducum", "ducibus"],
+    "meaning": "leader",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 59"
+  },
+  {
+    "latin": "legatus",
+    "pos": "noun",
+    "endings": ["legatus", "legati", "legatum", "legati", "legatorum", "legatis"],
+    "meaning": "lieutenant; envoy",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 59"
+  },
+  {
+    "latin": "civitas",
+    "pos": "noun",
+    "endings": ["civitas", "civitatis", "civitatem", "civitates", "civitatum", "civitatibus"],
+    "meaning": "state; citizenship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 60"
+  },
+  {
+    "latin": "populus",
+    "pos": "noun",
+    "endings": ["populus", "populi", "populum", "populi", "populorum", "populis"],
+    "meaning": "people; nation",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 60"
+  },
+  {
+    "latin": "gens",
+    "pos": "noun",
+    "endings": ["gens", "gentis", "gentem", "gentes", "gentium", "gentibus"],
+    "meaning": "tribe; clan",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 60"
+  },
+  {
+    "latin": "provincia",
+    "pos": "noun",
+    "endings": ["provincia", "provinciae", "provinciam", "provinciae", "provinciarum", "provinciis"],
+    "meaning": "province",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 60"
+  },
+  {
+    "latin": "imperium",
+    "pos": "noun",
+    "endings": ["imperium", "imperii", "imperium", "imperia", "imperiorum", "imperiis"],
+    "meaning": "command; power; empire",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 60"
+  },
+  {
+    "latin": "amicus",
+    "pos": "noun",
+    "endings": ["amicus", "amici", "amicum", "amici", "amicorum", "amicis"],
+    "meaning": "friend",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 61"
+  },
+  {
+    "latin": "inimicus",
+    "pos": "noun",
+    "endings": ["inimicus", "inimici", "inimicum", "inimici", "inimicorum", "inimicis"],
+    "meaning": "enemy (personal)",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 61"
+  },
+  {
+    "latin": "hostis",
+    "pos": "noun",
+    "endings": ["hostis", "hostis", "hostem", "hostes", "hostium", "hostibus"],
+    "meaning": "enemy (public)",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 61"
+  },
+  {
+    "latin": "societas",
+    "pos": "noun",
+    "endings": ["societas", "societatis", "societatem", "societates", "societatum", "societatibus"],
+    "meaning": "alliance; fellowship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 62"
+  },
+  {
+    "latin": "foedus",
+    "pos": "noun",
+    "endings": ["foedus", "foederis", "foedus", "foedera", "foederum", "foederibus"],
+    "meaning": "treaty; pact",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 62"
+  },
+  {
+    "latin": "amicitia",
+    "pos": "noun",
+    "endings": ["amicitia", "amicitiae", "amicitiam", "amicitiae", "amicitiarum", "amicitiis"],
+    "meaning": "friendship",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 62"
+  },
+  {
+    "latin": "bellum",
+    "pos": "noun",
+    "endings": ["bellum", "belli", "bellum", "bella", "bellorum", "bellis"],
+    "meaning": "war",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 63"
+  },
+  {
+    "latin": "pax",
+    "pos": "noun",
+    "endings": ["pax", "pacis", "pacem", "paces", "pacum", "pacibus"],
+    "meaning": "peace",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 63"
+  },
+  {
+    "latin": "victoria",
+    "pos": "noun",
+    "endings": ["victoria", "victoriae", "victoriam", "victoriae", "victoriarum", "victoriis"],
+    "meaning": "victory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 63"
+  },
+  {
+    "latin": "clades",
+    "pos": "noun",
+    "endings": ["clades", "cladis", "cladem", "clades", "cladium", "cladibus"],
+    "meaning": "disaster; defeat",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 63"
+  },
+  {
+    "latin": "gloria",
+    "pos": "noun",
+    "endings": ["gloria", "gloriae", "gloriam", "gloriae", "gloriarum", "gloriis"],
+    "meaning": "glory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 64"
+  },
+  {
+    "latin": "laus",
+    "pos": "noun",
+    "endings": ["laus", "laudis", "laudem", "laudes", "laudum", "laudibus"],
+    "meaning": "praise",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 64"
+  },
+  {
+    "latin": "honor",
+    "pos": "noun",
+    "endings": ["honor", "honoris", "honorem", "honores", "honorum", "honoribus"],
+    "meaning": "honor",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 64"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 65"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 65"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 65"
+  },
+  {
+    "latin": "amor",
+    "pos": "noun",
+    "endings": ["amor", "amoris", "amorem", "amores", "amorum", "amoribus"],
+    "meaning": "love",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 66"
+  },
+  {
+    "latin": "dolor",
+    "pos": "noun",
+    "endings": ["dolor", "doloris", "dolorem", "dolores", "dolorum", "doloribus"],
+    "meaning": "pain; grief",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 66"
+  },
+  {
+    "latin": "gaudium",
+    "pos": "noun",
+    "endings": ["gaudium", "gaudii", "gaudium", "gaudia", "gaudiorum", "gaudiis"],
+    "meaning": "joy",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 66"
+  },
+  {
+    "latin": "ira",
+    "pos": "noun",
+    "endings": ["ira", "irae", "iram", "irae", "irarum", "iris"],
+    "meaning": "anger",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 66"
+  },
+  {
+    "latin": "vita",
+    "pos": "noun",
+    "endings": ["vita", "vitae", "vitam", "vitae", "vitarum", "vitis"],
+    "meaning": "life",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 67"
+  },
+  {
+    "latin": "mors",
+    "pos": "noun",
+    "endings": ["mors", "mortis", "mortem", "mortes", "mortium", "mortibus"],
+    "meaning": "death",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 67"
+  },
+  {
+    "latin": "corpus",
+    "pos": "noun",
+    "endings": ["corpus", "corporis", "corpus", "corpora", "corporum", "corporibus"],
+    "meaning": "body",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 68"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "soul; spirit; mind",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 68"
+  },
+  {
+    "latin": "mens",
+    "pos": "noun",
+    "endings": ["mens", "mentis", "mentem", "mentes", "mentium", "mentibus"],
+    "meaning": "mind",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 68"
+  },
+  {
+    "latin": "memoria",
+    "pos": "noun",
+    "endings": ["memoria", "memoriae", "memoriam", "memoriae", "memoriarum", "memoriis"],
+    "meaning": "memory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 69"
+  },
+  {
+    "latin": "ingenium",
+    "pos": "noun",
+    "endings": ["ingenium", "ingenii", "ingenium", "ingenia", "ingeniorum", "ingeniis"],
+    "meaning": "talent; nature",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 69"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 70"
+  },
+  {
+    "latin": "vitium",
+    "pos": "noun",
+    "endings": ["vitium", "vitii", "vitium", "vitia", "vitiorum", "vitiis"],
+    "meaning": "fault; vice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 70"
+  },
+  {
+    "latin": "peccatum",
+    "pos": "noun",
+    "endings": ["peccatum", "peccati", "peccatum", "peccata", "peccatorum", "peccatis"],
+    "meaning": "sin",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 70"
+  },
+  {
+    "latin": "veritas",
+    "pos": "noun",
+    "endings": ["veritas", "veritatis", "veritatem", "veritates", "veritatum", "veritatibus"],
+    "meaning": "truth",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 71"
+  },
+  {
+    "latin": "mendacium",
+    "pos": "noun",
+    "endings": ["mendacium", "mendacii", "mendacium", "mendacia", "mendaciorum", "mendaciis"],
+    "meaning": "lie; falsehood",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 71"
+  },
+  {
+    "latin": "iustitia",
+    "pos": "noun",
+    "endings": ["iustitia", "iustitiae", "iustitiam", "iustitiae", "iustitiarum", "iustitiis"],
+    "meaning": "justice",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 72"
+  },
+  {
+    "latin": "iniuria",
+    "pos": "noun",
+    "endings": ["iniuria", "iniuriae", "iniuriam", "iniuriae", "iniuriarum", "iniuriis"],
+    "meaning": "wrong; injury",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 72"
+  },
+  {
+    "latin": "aequitas",
+    "pos": "noun",
+    "endings": ["aequitas", "aequitatis", "aequitatem", "aequitates", "aequitatum", "aequitabus"],
+    "meaning": "fairness; equity",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 72"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 73"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 73"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 74"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 74"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 74"
+  },
+  {
+    "latin": "officium",
+    "pos": "noun",
+    "endings": ["officium", "officii", "officium", "officia", "officiorum", "officiis"],
+    "meaning": "duty; service",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 75"
+  },
+  {
+    "latin": "munus",
+    "pos": "noun",
+    "endings": ["munus", "muneris", "munus", "munera", "munerum", "muneribus"],
+    "meaning": "gift; duty",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 75"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 76"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 76"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 77"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 77"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 77"
+  },
+  {
+    "latin": "lex",
+    "pos": "noun",
+    "endings": ["lex", "legis", "legem", "leges", "legum", "legibus"],
+    "meaning": "law",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 78"
+  },
+  {
+    "latin": "ius",
+    "pos": "noun",
+    "endings": ["ius", "iuris", "ius", "iura", "iurum", "iuribus"],
+    "meaning": "right; justice",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 78"
+  },
+  {
+    "latin": "poena",
+    "pos": "noun",
+    "endings": ["poena", "poenae", "poenam", "poenae", "poenarum", "poenis"],
+    "meaning": "punishment; penalty",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 79"
+  },
+  {
+    "latin": "judex",
+    "pos": "noun",
+    "endings": ["judex", "judicis", "judicem", "judices", "judicum", "judicibus"],
+    "meaning": "judge",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 80"
+  },
+  {
+    "latin": "testis",
+    "pos": "noun",
+    "endings": ["testis", "testis", "testem", "testes", "testium", "testibus"],
+    "meaning": "witness",
+    "notes": "3rd declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 80"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; case",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 81"
+  },
+  {
+    "latin": "argumentum",
+    "pos": "noun",
+    "endings": ["argumentum", "argumenti", "argumentum", "argumenta", "argumentorum", "argumentis"],
+    "meaning": "argument; proof",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 81"
+  },
+  {
+    "latin": "sententia",
+    "pos": "noun",
+    "endings": ["sententia", "sententiae", "sententiam", "sententiae", "sententiarum", "sententiis"],
+    "meaning": "opinion; sentence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 82"
+  },
+  {
+    "latin": "judicium",
+    "pos": "noun",
+    "endings": ["judicium", "judicii", "judicium", "judicia", "judiciorum", "judiciis"],
+    "meaning": "trial; judgment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 82"
+  },
+  {
+    "latin": "accusatio",
+    "pos": "noun",
+    "endings": ["accusatio", "accusationis", "accusationem", "accusationes", "accusationum", "accusationibus"],
+    "meaning": "accusation",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 83"
+  },
+  {
+    "latin": "defensio",
+    "pos": "noun",
+    "endings": ["defensio", "defensionis", "defensionem", "defensiones", "defensionum", "defensionibus"],
+    "meaning": "defense",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 83"
+  },
+  {
+    "latin": "orator",
+    "pos": "noun",
+    "endings": ["orator", "oratoris", "oratorem", "oratores", "oratorum", "oratoribus"],
+    "meaning": "speaker; orator",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 84"
+  },
+  {
+    "latin": "eloquentia",
+    "pos": "noun",
+    "endings": ["eloquentia", "eloquentiae", "eloquentiam", "eloquentiae", "eloquentiarum", "eloquentiis"],
+    "meaning": "eloquence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 84"
+  },
+  {
+    "latin": "persuasio",
+    "pos": "noun",
+    "endings": ["persuasio", "persuasionis", "persuasionem", "persuasiones", "persuasionum", "persuasionibus"],
+    "meaning": "persuasion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 85"
+  },
+  {
+    "latin": "ratio",
+    "pos": "noun",
+    "endings": ["ratio", "rationis", "rationem", "rationes", "rationum", "rationibus"],
+    "meaning": "reason; method",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 85"
+  },
+  {
+    "latin": "verbum",
+    "pos": "noun",
+    "endings": ["verbum", "verbi", "verbum", "verba", "verborum", "verbis"],
+    "meaning": "word",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 86"
+  },
+  {
+    "latin": "vox",
+    "pos": "noun",
+    "endings": ["vox", "vocis", "vocem", "voces", "vocum", "vocibus"],
+    "meaning": "voice",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 86"
+  },
+  {
+    "latin": "nomen",
+    "pos": "noun",
+    "endings": ["nomen", "nominis", "nomen", "nomina", "nominum", "nominibus"],
+    "meaning": "name",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 87"
+  },
+  {
+    "latin": "tempus",
+    "pos": "noun",
+    "endings": ["tempus", "temporis", "tempus", "tempora", "temporum", "temporibus"],
+    "meaning": "time",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 87"
+  },
+  {
+    "latin": "dies",
+    "pos": "noun",
+    "endings": ["dies", "diei", "diem", "dies", "dierum", "diebus"],
+    "meaning": "day",
+    "notes": "5th declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 88"
+  },
+  {
+    "latin": "nox",
+    "pos": "noun",
+    "endings": ["nox", "noctis", "noctem", "noctes", "noctium", "noctibus"],
+    "meaning": "night",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 88"
+  },
+  {
+    "latin": "lux",
+    "pos": "noun",
+    "endings": ["lux", "lucis", "lucem", "luces", "lucum", "lucibus"],
+    "meaning": "light",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 89"
+  },
+  {
+    "latin": "res",
+    "pos": "noun",
+    "endings": ["res", "rei", "rem", "res", "rerum", "rebus"],
+    "meaning": "thing; matter",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 90"
+  },
+  {
+    "latin": "manus",
+    "pos": "noun",
+    "endings": ["manus", "manus", "manum", "manus", "manuum", "manibus"],
+    "meaning": "hand",
+    "notes": "4th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 91"
+  },
+  {
+    "latin": "cornu",
+    "pos": "noun",
+    "endings": ["cornu", "cornus", "cornu", "cornua", "cornuum", "cornibus"],
+    "meaning": "horn; wing (of an army)",
+    "notes": "4th declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 91"
+  },
+  {
+    "latin": "domus",
+    "pos": "noun",
+    "endings": ["domus", "domus", "domum", "domus", "domorum", "domibus"],
+    "meaning": "house; home",
+    "notes": "4th declension feminine noun (irregular forms)",
+    "frequency": "common",
+    "chapter": "Lesson 91"
+  },
+  {
+    "latin": "uxor",
+    "pos": "noun",
+    "endings": ["uxor", "uxoris", "uxorem", "uxores", "uxorum", "uxoribus"],
+    "meaning": "wife",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 92"
+  },
+  {
+    "latin": "vir",
+    "pos": "noun",
+    "endings": ["vir", "viri", "virum", "viri", "virorum", "viris"],
+    "meaning": "man",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 92"
+  },
+  {
+    "latin": "victoria",
+    "pos": "noun",
+    "endings": ["victoria", "victoriae", "victoriam", "victoriae", "victoriarum", "victoriis"],
+    "meaning": "victory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 93"
+  },
+  {
+    "latin": "vulnus",
+    "pos": "noun",
+    "endings": ["vulnus", "vulneris", "vulnus", "vulnera", "vulnerum", "vulneribus"],
+    "meaning": "wound",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 93"
+  },
+  {
+    "latin": "amicitia",
+    "pos": "noun",
+    "endings": ["amicitia", "amicitiae", "amicitiam", "amicitiae", "amicitiarum", "amicitiis"],
+    "meaning": "friendship",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 94"
+  },
+  {
+    "latin": "inimicus",
+    "pos": "noun",
+    "endings": ["inimicus", "inimici", "inimicum", "inimici", "inimicorum", "inimicis"],
+    "meaning": "enemy (personal)",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 94"
+  },
+  {
+    "latin": "hostis",
+    "pos": "noun",
+    "endings": ["hostis", "hostis", "hostem", "hostes", "hostium", "hostibus"],
+    "meaning": "enemy (public)",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 94"
+  },
+  {
+    "latin": "civitas",
+    "pos": "noun",
+    "endings": ["civitas", "civitatis", "civitatem", "civitates", "civitatum", "civitatibus"],
+    "meaning": "state; citizenship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 95"
+  },
+  {
+    "latin": "populus",
+    "pos": "noun",
+    "endings": ["populus", "populi", "populum", "populi", "populorum", "populis"],
+    "meaning": "people; nation",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 95"
+  },
+  {
+    "latin": "gens",
+    "pos": "noun",
+    "endings": ["gens", "gentis", "gentem", "gentes", "gentium", "gentibus"],
+    "meaning": "tribe; clan",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 95"
+  },
+  {
+    "latin": "regnum",
+    "pos": "noun",
+    "endings": ["regnum", "regni", "regnum", "regna", "regnorum", "regnis"],
+    "meaning": "kingdom",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 96"
+  },
+  {
+    "latin": "imperium",
+    "pos": "noun",
+    "endings": ["imperium", "imperii", "imperium", "imperia", "imperiorum", "imperiis"],
+    "meaning": "command; power; empire",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 96"
+  },
+  {
+    "latin": "provincia",
+    "pos": "noun",
+    "endings": ["provincia", "provinciae", "provinciam", "provinciae", "provinciarum", "provinciis"],
+    "meaning": "province",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 96"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 97"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 97"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 97"
+  },
+  {
+    "latin": "gloria",
+    "pos": "noun",
+    "endings": ["gloria", "gloriae", "gloriam", "gloriae", "gloriarum", "gloriis"],
+    "meaning": "glory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 98"
+  },
+  {
+    "latin": "laus",
+    "pos": "noun",
+    "endings": ["laus", "laudis", "laudem", "laudes", "laudum", "laudibus"],
+    "meaning": "praise",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 98"
+  },
+  {
+    "latin": "honor",
+    "pos": "noun",
+    "endings": ["honor", "honoris", "honorem", "honores", "honorum", "honoribus"],
+    "meaning": "honor",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 98"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 99"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 99"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 99"
+  },
+  {
+    "latin": "amor",
+    "pos": "noun",
+    "endings": ["amor", "amoris", "amorem", "amores", "amorum", "amoribus"],
+    "meaning": "love",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 100"
+  },
+  {
+    "latin": "dolor",
+    "pos": "noun",
+    "endings": ["dolor", "doloris", "dolorem", "dolores", "dolorum", "doloribus"],
+    "meaning": "pain; grief",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 100"
+  },
+  {
+    "latin": "gaudium",
+    "pos": "noun",
+    "endings": ["gaudium", "gaudii", "gaudium", "gaudia", "gaudiorum", "gaudiis"],
+    "meaning": "joy",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 100"
+  },
+  {
+    "latin": "ira",
+    "pos": "noun",
+    "endings": ["ira", "irae", "iram", "irae", "irarum", "iris"],
+    "meaning": "anger",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 100"
+  },
+  {
+    "latin": "victor",
+    "pos": "noun",
+    "endings": ["victor", "victoris", "victorem", "victores", "victorum", "victoribus"],
+    "meaning": "victor; conqueror",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 101"
+  },
+  {
+    "latin": "bellator",
+    "pos": "noun",
+    "endings": ["bellator", "bellatoris", "bellatorem", "bellatores", "bellatorum", "bellatoribus"],
+    "meaning": "warrior",
+    "notes": "3rd declension masculine noun",
+    "frequency": "rare",
+    "chapter": "Lesson 101"
+  },
+  {
+    "latin": "templum",
+    "pos": "noun",
+    "endings": ["templum", "templi", "templum", "templa", "templorum", "templis"],
+    "meaning": "temple",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 102"
+  },
+  {
+    "latin": "altare",
+    "pos": "noun",
+    "endings": ["altare", "altaris", "altare", "altaria", "altarium", "altaribus"],
+    "meaning": "altar",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 102"
+  },
+  {
+    "latin": "sacrificium",
+    "pos": "noun",
+    "endings": ["sacrificium", "sacrificii", "sacrificium", "sacrificia", "sacrificiorum", "sacrificiis"],
+    "meaning": "sacrifice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 102"
+  },
+  {
+    "latin": "religio",
+    "pos": "noun",
+    "endings": ["religio", "religionis", "religionem", "religiones", "religionum", "religionibus"],
+    "meaning": "religion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 102"
+  },
+  {
+    "latin": "fides",
+    "pos": "noun",
+    "endings": ["fides", "fidei", "fidem", "fides", "fiderum", "fidibus"],
+    "meaning": "faith; trust",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 103"
+  },
+  {
+    "latin": "spiritus",
+    "pos": "noun",
+    "endings": ["spiritus", "spiritus", "spiritum", "spiritus", "spirituum", "spiritibus"],
+    "meaning": "spirit; breath",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 103"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "mind; soul",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 103"
+  },
+  {
+    "latin": "mens",
+    "pos": "noun",
+    "endings": ["mens", "mentis", "mentem", "mentes", "mentium", "mentibus"],
+    "meaning": "mind",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 104"
+  },
+  {
+    "latin": "memoria",
+    "pos": "noun",
+    "endings": ["memoria", "memoriae", "memoriam", "memoriae", "memoriarum", "memoriis"],
+    "meaning": "memory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 104"
+  },
+  {
+    "latin": "ingenium",
+    "pos": "noun",
+    "endings": ["ingenium", "ingenii", "ingenium", "ingenia", "ingeniorum", "ingeniis"],
+    "meaning": "talent; nature",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 104"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 105"
+  },
+  {
+    "latin": "vitium",
+    "pos": "noun",
+    "endings": ["vitium", "vitii", "vitium", "vitia", "vitiorum", "vitiis"],
+    "meaning": "fault; vice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 105"
+  },
+  {
+    "latin": "peccatum",
+    "pos": "noun",
+    "endings": ["peccatum", "peccati", "peccatum", "peccata", "peccatorum", "peccatis"],
+    "meaning": "sin",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 105"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 106"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 106"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 106"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 107"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 107"
+  },
+  {
+    "latin": "officium",
+    "pos": "noun",
+    "endings": ["officium", "officii", "officium", "officia", "officiorum", "officiis"],
+    "meaning": "duty; service",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 108"
+  },
+  {
+    "latin": "munus",
+    "pos": "noun",
+    "endings": ["munus", "muneris", "munus", "munera", "munerum", "muneribus"],
+    "meaning": "gift; duty",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 108"
+  },
+  {
+    "latin": "lex",
+    "pos": "noun",
+    "endings": ["lex", "legis", "legem", "leges", "legum", "legibus"],
+    "meaning": "law",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 109"
+  },
+  {
+    "latin": "ius",
+    "pos": "noun",
+    "endings": ["ius", "iuris", "ius", "iura", "iurum", "iuribus"],
+    "meaning": "right; justice",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 109"
+  },
+  {
+    "latin": "poena",
+    "pos": "noun",
+    "endings": ["poena", "poenae", "poenam", "poenae", "poenarum", "poenis"],
+    "meaning": "punishment; penalty",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 110"
+  },
+  {
+    "latin": "supplicium",
+    "pos": "noun",
+    "endings": ["supplicium", "supplicii", "supplicium", "supplicia", "suppliciorum", "suppliciis"],
+    "meaning": "execution; punishment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 110"
+  },
+  {
+    "latin": "carcer",
+    "pos": "noun",
+    "endings": ["carcer", "carceris", "carcerem", "carceres", "carcerum", "carceribus"],
+    "meaning": "prison",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 110"
+  },
+  {
+    "latin": "judex",
+    "pos": "noun",
+    "endings": ["judex", "judicis", "judicem", "judices", "judicum", "judicibus"],
+    "meaning": "judge",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 111"
+  },
+  {
+    "latin": "testis",
+    "pos": "noun",
+    "endings": ["testis", "testis", "testem", "testes", "testium", "testibus"],
+    "meaning": "witness",
+    "notes": "3rd declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 111"
+  },
+  {
+    "latin": "sententia",
+    "pos": "noun",
+    "endings": ["sententia", "sententiae", "sententiam", "sententiae", "sententiarum", "sententiis"],
+    "meaning": "opinion; sentence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 112"
+  },
+  {
+    "latin": "judicium",
+    "pos": "noun",
+    "endings": ["judicium", "judicii", "judicium", "judicia", "judiciorum", "judiciis"],
+    "meaning": "trial; judgment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 112"
+  },
+  {
+    "latin": "accusatio",
+    "pos": "noun",
+    "endings": ["accusatio", "accusationis", "accusationem", "accusationes", "accusationum", "accusationibus"],
+    "meaning": "accusation",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 113"
+  },
+  {
+    "latin": "defensio",
+    "pos": "noun",
+    "endings": ["defensio", "defensionis", "defensionem", "defensiones", "defensionum", "defensionibus"],
+    "meaning": "defense",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 113"
+  },
+  {
+    "latin": "orator",
+    "pos": "noun",
+    "endings": ["orator", "oratoris", "oratorem", "oratores", "oratorum", "oratoribus"],
+    "meaning": "speaker; orator",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 114"
+  },
+  {
+    "latin": "eloquentia",
+    "pos": "noun",
+    "endings": ["eloquentia", "eloquentiae", "eloquentiam", "eloquentiae", "eloquentiarum", "eloquentiis"],
+    "meaning": "eloquence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 114"
+  },
+  {
+    "latin": "persuasio",
+    "pos": "noun",
+    "endings": ["persuasio", "persuasionis", "persuasionem", "persuasiones", "persuasionum", "persuasionibus"],
+    "meaning": "persuasion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 115"
+  },
+  {
+    "latin": "ratio",
+    "pos": "noun",
+    "endings": ["ratio", "rationis", "rationem", "rationes", "rationum", "rationibus"],
+    "meaning": "reason; method",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 115"
+  },
+  {
+    "latin": "verbum",
+    "pos": "noun",
+    "endings": ["verbum", "verbi", "verbum", "verba", "verborum", "verbis"],
+    "meaning": "word",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 116"
+  },
+  {
+    "latin": "vox",
+    "pos": "noun",
+    "endings": ["vox", "vocis", "vocem", "voces", "vocum", "vocibus"],
+    "meaning": "voice",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 116"
+  },
+  {
+    "latin": "nomen",
+    "pos": "noun",
+    "endings": ["nomen", "nominis", "nomen", "nomina", "nominum", "nominibus"],
+    "meaning": "name",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 117"
+  },
+  {
+    "latin": "tempus",
+    "pos": "noun",
+    "endings": ["tempus", "temporis", "tempus", "tempora", "temporum", "temporibus"],
+    "meaning": "time",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 117"
+  },
+  {
+    "latin": "dies",
+    "pos": "noun",
+    "endings": ["dies", "diei", "diem", "dies", "dierum", "diebus"],
+    "meaning": "day",
+    "notes": "5th declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 118"
+  },
+  {
+    "latin": "nox",
+    "pos": "noun",
+    "endings": ["nox", "noctis", "noctem", "noctes", "noctium", "noctibus"],
+    "meaning": "night",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 118"
+  },
+  {
+    "latin": "lux",
+    "pos": "noun",
+    "endings": ["lux", "lucis", "lucem", "luces", "lucum", "lucibus"],
+    "meaning": "light",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 119"
+  },
+  {
+    "latin": "res",
+    "pos": "noun",
+    "endings": ["res", "rei", "rem", "res", "rerum", "rebus"],
+    "meaning": "thing; matter",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 120"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; reason",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 120"
+  },
+  {
+    "latin": "gratia",
+    "pos": "noun",
+    "endings": ["gratia", "gratiae", "gratiam", "gratiae", "gratiarum", "gratiis"],
+    "meaning": "favor; thanks; grace",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 120"
+  },
+  {
+    "latin": "cura",
+    "pos": "noun",
+    "endings": ["cura", "curae", "curam", "curae", "curarum", "curis"],
+    "meaning": "care; concern",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 120"
+  },
+  {
+    "latin": "cursus",
+    "pos": "noun",
+    "endings": ["cursus", "cursus", "cursum", "cursus", "cursuum", "cursibus"],
+    "meaning": "course; running",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 121"
+  },
+  {
+    "latin": "usus",
+    "pos": "noun",
+    "endings": ["usus", "usus", "usum", "usus", "usuum", "usibus"],
+    "meaning": "use; practice",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 121"
+  },
+  {
+    "latin": "fructus",
+    "pos": "noun",
+    "endings": ["fructus", "fructus", "fructum", "fructus", "fructuum", "fructibus"],
+    "meaning": "fruit; profit",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 121"
+  },
+  {
+    "latin": "dominus",
+    "pos": "noun",
+    "endings": ["dominus", "domini", "dominum", "domini", "dominorum", "dominis"],
+    "meaning": "lord; master",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 122"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 122"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 122"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 123"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 123"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 123"
+  },
+  {
+    "latin": "officium",
+    "pos": "noun",
+    "endings": ["officium", "officii", "officium", "officia", "officiorum", "officiis"],
+    "meaning": "duty; service",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 124"
+  },
+  {
+    "latin": "munus",
+    "pos": "noun",
+    "endings": ["munus", "muneris", "munus", "munera", "munerum", "muneribus"],
+    "meaning": "gift; duty",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 124"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 125"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 125"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 126"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 126"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 126"
+  },
+  {
+    "latin": "veritas",
+    "pos": "noun",
+    "endings": ["veritas", "veritatis", "veritatem", "veritates", "veritatum", "veritatibus"],
+    "meaning": "truth",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 127"
+  },
+  {
+    "latin": "mendacium",
+    "pos": "noun",
+    "endings": ["mendacium", "mendacii", "mendacium", "mendacia", "mendaciorum", "mendaciis"],
+    "meaning": "lie; falsehood",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 127"
+  },
+  {
+    "latin": "iniuria",
+    "pos": "noun",
+    "endings": ["iniuria", "iniuriae", "iniuriam", "iniuriae", "iniuriarum", "iniuriis"],
+    "meaning": "wrong; injury",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 128"
+  },
+  {
+    "latin": "aequitas",
+    "pos": "noun",
+    "endings": ["aequitas", "aequitatis", "aequitatem", "aequitates", "aequitatum", "aequitabus"],
+    "meaning": "fairness; equity",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 128"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 129"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 129"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 130"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 130"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 130"
+  },
+  {
+    "latin": "amicitia",
+    "pos": "noun",
+    "endings": ["amicitia", "amicitiae", "amicitiam", "amicitiae", "amicitiarum", "amicitiis"],
+    "meaning": "friendship",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 131"
+  },
+  {
+    "latin": "societas",
+    "pos": "noun",
+    "endings": ["societas", "societatis", "societatem", "societates", "societatum", "societatibus"],
+    "meaning": "alliance; fellowship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 131"
+  },
+  {
+    "latin": "foedus",
+    "pos": "noun",
+    "endings": ["foedus", "foederis", "foedus", "foedera", "foederum", "foederibus"],
+    "meaning": "treaty; pact",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 131"
+  },
+  {
+    "latin": "bellum",
+    "pos": "noun",
+    "endings": ["bellum", "belli", "bellum", "bella", "bellorum", "bellis"],
+    "meaning": "war",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 132"
+  },
+  {
+    "latin": "pax",
+    "pos": "noun",
+    "endings": ["pax", "pacis", "pacem", "paces", "pacum", "pacibus"],
+    "meaning": "peace",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 132"
+  },
+  {
+    "latin": "victoria",
+    "pos": "noun",
+    "endings": ["victoria", "victoriae", "victoriam", "victoriae", "victoriarum", "victoriis"],
+    "meaning": "victory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 132"
+  },
+  {
+    "latin": "clades",
+    "pos": "noun",
+    "endings": ["clades", "cladis", "cladem", "clades", "cladium", "cladibus"],
+    "meaning": "disaster; defeat",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 132"
+  },
+  {
+    "latin": "gloria",
+    "pos": "noun",
+    "endings": ["gloria", "gloriae", "gloriam", "gloriae", "gloriarum", "gloriis"],
+    "meaning": "glory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 133"
+  },
+  {
+    "latin": "laus",
+    "pos": "noun",
+    "endings": ["laus", "laudis", "laudem", "laudes", "laudum", "laudibus"],
+    "meaning": "praise",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 133"
+  },
+  {
+    "latin": "honor",
+    "pos": "noun",
+    "endings": ["honor", "honoris", "honorem", "honores", "honorum", "honoribus"],
+    "meaning": "honor",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 133"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 134"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 134"
+  },
+  {
+    "latin": "amicus",
+    "pos": "noun",
+    "endings": ["amicus", "amici", "amicum", "amici", "amicorum", "amicis"],
+    "meaning": "friend",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 135"
+  },
+  {
+    "latin": "inimicus",
+    "pos": "noun",
+    "endings": ["inimicus", "inimici", "inimicum", "inimici", "inimicorum", "inimicis"],
+    "meaning": "enemy (personal)",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 135"
+  },
+  {
+    "latin": "hostis",
+    "pos": "noun",
+    "endings": ["hostis", "hostis", "hostem", "hostes", "hostium", "hostibus"],
+    "meaning": "enemy (public)",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 135"
+  },
+  {
+    "latin": "rex",
+    "pos": "noun",
+    "endings": ["rex", "regis", "regem", "reges", "regum", "regibus"],
+    "meaning": "king",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 136"
+  },
+  {
+    "latin": "regina",
+    "pos": "noun",
+    "endings": ["regina", "reginae", "reginam", "reginae", "reginarum", "reginis"],
+    "meaning": "queen",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 136"
+  },
+  {
+    "latin": "imperator",
+    "pos": "noun",
+    "endings": ["imperator", "imperatoris", "imperatorem", "imperatores", "imperatorum", "imperatoribus"],
+    "meaning": "commander; general",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 137"
+  },
+  {
+    "latin": "dux",
+    "pos": "noun",
+    "endings": ["dux", "ducis", "ducem", "duces", "ducum", "ducibus"],
+    "meaning": "leader",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 137"
+  },
+  {
+    "latin": "legatus",
+    "pos": "noun",
+    "endings": ["legatus", "legati", "legatum", "legati", "legatorum", "legatis"],
+    "meaning": "lieutenant; envoy",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 137"
+  },
+  {
+    "latin": "civitas",
+    "pos": "noun",
+    "endings": ["civitas", "civitatis", "civitatem", "civitates", "civitatum", "civitatibus"],
+    "meaning": "state; citizenship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 138"
+  },
+  {
+    "latin": "populus",
+    "pos": "noun",
+    "endings": ["populus", "populi", "populum", "populi", "populorum", "populis"],
+    "meaning": "people; nation",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 138"
+  },
+  {
+    "latin": "gens",
+    "pos": "noun",
+    "endings": ["gens", "gentis", "gentem", "gentes", "gentium", "gentibus"],
+    "meaning": "tribe; clan",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 138"
+  },
+  {
+    "latin": "provincia",
+    "pos": "noun",
+    "endings": ["provincia", "provinciae", "provinciam", "provinciae", "provinciarum", "provinciis"],
+    "meaning": "province",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 139"
+  },
+  {
+    "latin": "imperium",
+    "pos": "noun",
+    "endings": ["imperium", "imperii", "imperium", "imperia", "imperiorum", "imperiis"],
+    "meaning": "command; power; empire",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 139"
+  },
+  {
+    "latin": "regnum",
+    "pos": "noun",
+    "endings": ["regnum", "regni", "regnum", "regna", "regnorum", "regnis"],
+    "meaning": "kingdom",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 139"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 140"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 140"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 140"
+  },
+  {
+    "latin": "amor",
+    "pos": "noun",
+    "endings": ["amor", "amoris", "amorem", "amores", "amorum", "amoribus"],
+    "meaning": "love",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 141"
+  },
+  {
+    "latin": "dolor",
+    "pos": "noun",
+    "endings": ["dolor", "doloris", "dolorem", "dolores", "dolorum", "doloribus"],
+    "meaning": "pain; grief",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 141"
+  },
+  {
+    "latin": "gaudium",
+    "pos": "noun",
+    "endings": ["gaudium", "gaudii", "gaudium", "gaudia", "gaudiorum", "gaudiis"],
+    "meaning": "joy",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 141"
+  },
+  {
+    "latin": "ira",
+    "pos": "noun",
+    "endings": ["ira", "irae", "iram", "irae", "irarum", "iris"],
+    "meaning": "anger",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 141"
+  },
+  {
+    "latin": "vita",
+    "pos": "noun",
+    "endings": ["vita", "vitae", "vitam", "vitae", "vitarum", "vitis"],
+    "meaning": "life",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 142"
+  },
+  {
+    "latin": "mors",
+    "pos": "noun",
+    "endings": ["mors", "mortis", "mortem", "mortes", "mortium", "mortibus"],
+    "meaning": "death",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 142"
+  },
+  {
+    "latin": "corpus",
+    "pos": "noun",
+    "endings": ["corpus", "corporis", "corpus", "corpora", "corporum", "corporibus"],
+    "meaning": "body",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 143"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "soul; spirit; mind",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 143"
+  },
+  {
+    "latin": "mens",
+    "pos": "noun",
+    "endings": ["mens", "mentis", "mentem", "mentes", "mentium", "mentibus"],
+    "meaning": "mind",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 143"
+  },
+  {
+    "latin": "memoria",
+    "pos": "noun",
+    "endings": ["memoria", "memoriae", "memoriam", "memoriae", "memoriarum", "memoriis"],
+    "meaning": "memory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 144"
+  },
+  {
+    "latin": "ingenium",
+    "pos": "noun",
+    "endings": ["ingenium", "ingenii", "ingenium", "ingenia", "ingeniorum", "ingeniis"],
+    "meaning": "talent; nature",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 144"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 145"
+  },
+  {
+    "latin": "vitium",
+    "pos": "noun",
+    "endings": ["vitium", "vitii", "vitium", "vitia", "vitiorum", "vitiis"],
+    "meaning": "fault; vice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 145"
+  },
+  {
+    "latin": "peccatum",
+    "pos": "noun",
+    "endings": ["peccatum", "peccati", "peccatum", "peccata", "peccatorum", "peccatis"],
+    "meaning": "sin",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 145"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 146"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 146"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 146"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 147"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 147"
+  },
+  {
+    "latin": "veritas",
+    "pos": "noun",
+    "endings": ["veritas", "veritatis", "veritatem", "veritates", "veritatum", "veritatibus"],
+    "meaning": "truth",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 148"
+  },
+  {
+    "latin": "mendacium",
+    "pos": "noun",
+    "endings": ["mendacium", "mendacii", "mendacium", "mendacia", "mendaciorum", "mendaciis"],
+    "meaning": "lie; falsehood",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 148"
+  },
+  {
+    "latin": "iustitia",
+    "pos": "noun",
+    "endings": ["iustitia", "iustitiae", "iustitiam", "iustitiae", "iustitiarum", "iustitiis"],
+    "meaning": "justice",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 149"
+  },
+  {
+    "latin": "iniuria",
+    "pos": "noun",
+    "endings": ["iniuria", "iniuriae", "iniuriam", "iniuriae", "iniuriarum", "iniuriis"],
+    "meaning": "wrong; injury",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 149"
+  },
+  {
+    "latin": "aequitas",
+    "pos": "noun",
+    "endings": ["aequitas", "aequitatis", "aequitatem", "aequitates", "aequitatum", "aequitabus"],
+    "meaning": "fairness; equity",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 149"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 150"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 150"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 150"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 150"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 150"
+  },
+  {
+    "latin": "judex",
+    "pos": "noun",
+    "endings": ["judex", "judicis", "judicem", "judices", "judicum", "judicibus"],
+    "meaning": "judge",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 151"
+  },
+  {
+    "latin": "testis",
+    "pos": "noun",
+    "endings": ["testis", "testis", "testem", "testes", "testium", "testibus"],
+    "meaning": "witness",
+    "notes": "3rd declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 151"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; case",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 152"
+  },
+  {
+    "latin": "argumentum",
+    "pos": "noun",
+    "endings": ["argumentum", "argumenti", "argumentum", "argumenta", "argumentorum", "argumentis"],
+    "meaning": "argument; proof",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 152"
+  },
+  {
+    "latin": "sententia",
+    "pos": "noun",
+    "endings": ["sententia", "sententiae", "sententiam", "sententiae", "sententiarum", "sententiis"],
+    "meaning": "opinion; sentence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 153"
+  },
+  {
+    "latin": "judicium",
+    "pos": "noun",
+    "endings": ["judicium", "judicii", "judicium", "judicia", "judiciorum", "judiciis"],
+    "meaning": "trial; judgment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 153"
+  },
+  {
+    "latin": "accusatio",
+    "pos": "noun",
+    "endings": ["accusatio", "accusationis", "accusationem", "accusationes", "accusationum", "accusationibus"],
+    "meaning": "accusation",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 154"
+  },
+  {
+    "latin": "defensio",
+    "pos": "noun",
+    "endings": ["defensio", "defensionis", "defensionem", "defensiones", "defensionum", "defensionibus"],
+    "meaning": "defense",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 154"
+  },
+  {
+    "latin": "orator",
+    "pos": "noun",
+    "endings": ["orator", "oratoris", "oratorem", "oratores", "oratorum", "oratoribus"],
+    "meaning": "speaker; orator",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 155"
+  },
+  {
+    "latin": "eloquentia",
+    "pos": "noun",
+    "endings": ["eloquentia", "eloquentiae", "eloquentiam", "eloquentiae", "eloquentiarum", "eloquentiis"],
+    "meaning": "eloquence",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 155"
+  },
+  {
+    "latin": "persuasio",
+    "pos": "noun",
+    "endings": ["persuasio", "persuasionis", "persuasionem", "persuasiones", "persuasionum", "persuasionibus"],
+    "meaning": "persuasion",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 156"
+  },
+  {
+    "latin": "ratio",
+    "pos": "noun",
+    "endings": ["ratio", "rationis", "rationem", "rationes", "rationum", "rationibus"],
+    "meaning": "reason; method",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 156"
+  },
+  {
+    "latin": "verbum",
+    "pos": "noun",
+    "endings": ["verbum", "verbi", "verbum", "verba", "verborum", "verbis"],
+    "meaning": "word",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 157"
+  },
+  {
+    "latin": "vox",
+    "pos": "noun",
+    "endings": ["vox", "vocis", "vocem", "voces", "vocum", "vocibus"],
+    "meaning": "voice",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 157"
+  },
+  {
+    "latin": "nomen",
+    "pos": "noun",
+    "endings": ["nomen", "nominis", "nomen", "nomina", "nominum", "nominibus"],
+    "meaning": "name",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 158"
+  },
+  {
+    "latin": "tempus",
+    "pos": "noun",
+    "endings": ["tempus", "temporis", "tempus", "tempora", "temporum", "temporibus"],
+    "meaning": "time",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 158"
+  },
+  {
+    "latin": "dies",
+    "pos": "noun",
+    "endings": ["dies", "diei", "diem", "dies", "dierum", "diebus"],
+    "meaning": "day",
+    "notes": "5th declension masculine/feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 159"
+  },
+  {
+    "latin": "nox",
+    "pos": "noun",
+    "endings": ["nox", "noctis", "noctem", "noctes", "noctium", "noctibus"],
+    "meaning": "night",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 159"
+  },
+  {
+    "latin": "lux",
+    "pos": "noun",
+    "endings": ["lux", "lucis", "lucem", "luces", "lucum", "lucibus"],
+    "meaning": "light",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 160"
+  },
+  {
+    "latin": "res",
+    "pos": "noun",
+    "endings": ["res", "rei", "rem", "res", "rerum", "rebus"],
+    "meaning": "thing; matter; affair",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 161"
+  },
+  {
+    "latin": "causa",
+    "pos": "noun",
+    "endings": ["causa", "causae", "causam", "causae", "causarum", "causis"],
+    "meaning": "cause; reason",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 161"
+  },
+  {
+    "latin": "gratia",
+    "pos": "noun",
+    "endings": ["gratia", "gratiae", "gratiam", "gratiae", "gratiarum", "gratiis"],
+    "meaning": "favor; thanks; grace",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 162"
+  },
+  {
+    "latin": "cura",
+    "pos": "noun",
+    "endings": ["cura", "curae", "curam", "curae", "curarum", "curis"],
+    "meaning": "care; concern",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 162"
+  },
+  {
+    "latin": "cursus",
+    "pos": "noun",
+    "endings": ["cursus", "cursus", "cursum", "cursus", "cursuum", "cursibus"],
+    "meaning": "course; running",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 163"
+  },
+  {
+    "latin": "usus",
+    "pos": "noun",
+    "endings": ["usus", "usus", "usum", "usus", "usuum", "usibus"],
+    "meaning": "use; practice",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 163"
+  },
+  {
+    "latin": "fructus",
+    "pos": "noun",
+    "endings": ["fructus", "fructus", "fructum", "fructus", "fructuum", "fructibus"],
+    "meaning": "fruit; profit",
+    "notes": "4th declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 163"
+  },
+  {
+    "latin": "dominus",
+    "pos": "noun",
+    "endings": ["dominus", "domini", "dominum", "domini", "dominorum", "dominis"],
+    "meaning": "lord; master",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 164"
+  },
+  {
+    "latin": "servitus",
+    "pos": "noun",
+    "endings": ["servitus", "servitutis", "servitutem", "servitutes", "servitutum", "servitutibus"],
+    "meaning": "slavery; servitude",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 164"
+  },
+  {
+    "latin": "libertas",
+    "pos": "noun",
+    "endings": ["libertas", "libertatis", "libertatem", "libertates", "libertatum", "libertatibus"],
+    "meaning": "freedom; liberty",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 164"
+  },
+  {
+    "latin": "potestas",
+    "pos": "noun",
+    "endings": ["potestas", "potestatis", "potestatem", "potestates", "potestatum", "potestatibus"],
+    "meaning": "power; authority",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 165"
+  },
+  {
+    "latin": "auctoritas",
+    "pos": "noun",
+    "endings": ["auctoritas", "auctoritatis", "auctoritatem", "auctoritates", "auctoritatum", "auctoritatibus"],
+    "meaning": "authority; influence",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 165"
+  },
+  {
+    "latin": "dignitas",
+    "pos": "noun",
+    "endings": ["dignitas", "dignitatis", "dignitatem", "dignitates", "dignitatum", "dignitatibus"],
+    "meaning": "dignity; rank",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 165"
+  },
+  {
+    "latin": "amicitia",
+    "pos": "noun",
+    "endings": ["amicitia", "amicitiae", "amicitiam", "amicitiae", "amicitiarum", "amicitiis"],
+    "meaning": "friendship",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 166"
+  },
+  {
+    "latin": "societas",
+    "pos": "noun",
+    "endings": ["societas", "societatis", "societatem", "societates", "societatum", "societatibus"],
+    "meaning": "alliance; fellowship",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 166"
+  },
+  {
+    "latin": "foedus",
+    "pos": "noun",
+    "endings": ["foedus", "foederis", "foedus", "foedera", "foederum", "foederibus"],
+    "meaning": "treaty; pact",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 166"
+  },
+  {
+    "latin": "bellum",
+    "pos": "noun",
+    "endings": ["bellum", "belli", "bellum", "bella", "bellorum", "bellis"],
+    "meaning": "war",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 167"
+  },
+  {
+    "latin": "pax",
+    "pos": "noun",
+    "endings": ["pax", "pacis", "pacem", "paces", "pacum", "pacibus"],
+    "meaning": "peace",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 167"
+  },
+  {
+    "latin": "victoria",
+    "pos": "noun",
+    "endings": ["victoria", "victoriae", "victoriam", "victoriae", "victoriarum", "victoriis"],
+    "meaning": "victory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 167"
+  },
+  {
+    "latin": "clades",
+    "pos": "noun",
+    "endings": ["clades", "cladis", "cladem", "clades", "cladium", "cladibus"],
+    "meaning": "disaster; defeat",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 168"
+  },
+  {
+    "latin": "gloria",
+    "pos": "noun",
+    "endings": ["gloria", "gloriae", "gloriam", "gloriae", "gloriarum", "gloriis"],
+    "meaning": "glory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 168"
+  },
+  {
+    "latin": "laus",
+    "pos": "noun",
+    "endings": ["laus", "laudis", "laudem", "laudes", "laudum", "laudibus"],
+    "meaning": "praise",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 168"
+  },
+  {
+    "latin": "honor",
+    "pos": "noun",
+    "endings": ["honor", "honoris", "honorem", "honores", "honorum", "honoribus"],
+    "meaning": "honor",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 168"
+  },
+  {
+    "latin": "salus",
+    "pos": "noun",
+    "endings": ["salus", "salutis", "salutem", "salutes", "salutum", "salutibus"],
+    "meaning": "safety; welfare",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 169"
+  },
+  {
+    "latin": "spes",
+    "pos": "noun",
+    "endings": ["spes", "spei", "spem", "spes", "sperum", "spebus"],
+    "meaning": "hope",
+    "notes": "5th declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 169"
+  },
+  {
+    "latin": "timor",
+    "pos": "noun",
+    "endings": ["timor", "timoris", "timorem", "timores", "timorum", "timoribus"],
+    "meaning": "fear",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 169"
+  },
+  {
+    "latin": "amor",
+    "pos": "noun",
+    "endings": ["amor", "amoris", "amorem", "amores", "amorum", "amoribus"],
+    "meaning": "love",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 170"
+  },
+  {
+    "latin": "dolor",
+    "pos": "noun",
+    "endings": ["dolor", "doloris", "dolorem", "dolores", "dolorum", "doloribus"],
+    "meaning": "pain; grief",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 170"
+  },
+  {
+    "latin": "gaudium",
+    "pos": "noun",
+    "endings": ["gaudium", "gaudii", "gaudium", "gaudia", "gaudiorum", "gaudiis"],
+    "meaning": "joy",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 170"
+  },
+  {
+    "latin": "ira",
+    "pos": "noun",
+    "endings": ["ira", "irae", "iram", "irae", "irarum", "iris"],
+    "meaning": "anger",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 170"
+  },
+  {
+    "latin": "vita",
+    "pos": "noun",
+    "endings": ["vita", "vitae", "vitam", "vitae", "vitarum", "vitis"],
+    "meaning": "life",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 171"
+  },
+  {
+    "latin": "mors",
+    "pos": "noun",
+    "endings": ["mors", "mortis", "mortem", "mortes", "mortium", "mortibus"],
+    "meaning": "death",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 171"
+  },
+  {
+    "latin": "corpus",
+    "pos": "noun",
+    "endings": ["corpus", "corporis", "corpus", "corpora", "corporum", "corporibus"],
+    "meaning": "body",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 172"
+  },
+  {
+    "latin": "animus",
+    "pos": "noun",
+    "endings": ["animus", "animi", "animum", "animi", "animorum", "animis"],
+    "meaning": "soul; spirit; mind",
+    "notes": "2nd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 172"
+  },
+  {
+    "latin": "mens",
+    "pos": "noun",
+    "endings": ["mens", "mentis", "mentem", "mentes", "mentium", "mentibus"],
+    "meaning": "mind",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 172"
+  },
+  {
+    "latin": "memoria",
+    "pos": "noun",
+    "endings": ["memoria", "memoriae", "memoriam", "memoriae", "memoriarum", "memoriis"],
+    "meaning": "memory",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 173"
+  },
+  {
+    "latin": "ingenium",
+    "pos": "noun",
+    "endings": ["ingenium", "ingenii", "ingenium", "ingenia", "ingeniorum", "ingeniis"],
+    "meaning": "talent; nature",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 173"
+  },
+  {
+    "latin": "virtus",
+    "pos": "noun",
+    "endings": ["virtus", "virtutis", "virtutem", "virtutes", "virtutum", "virtutibus"],
+    "meaning": "virtue; courage",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 174"
+  },
+  {
+    "latin": "vitium",
+    "pos": "noun",
+    "endings": ["vitium", "vitii", "vitium", "vitia", "vitiorum", "vitiis"],
+    "meaning": "fault; vice",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 175"
+  },
+  {
+    "latin": "peccatum",
+    "pos": "noun",
+    "endings": ["peccatum", "peccati", "peccatum", "peccata", "peccatorum", "peccatis"],
+    "meaning": "sin",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 175"
+  },
+  {
+    "latin": "sapientia",
+    "pos": "noun",
+    "endings": ["sapientia", "sapientiae", "sapientiam", "sapientiae", "sapientiarum", "sapientiis"],
+    "meaning": "wisdom",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 176"
+  },
+  {
+    "latin": "scientia",
+    "pos": "noun",
+    "endings": ["scientia", "scientiae", "scientiam", "scientiae", "scientiarum", "scientiis"],
+    "meaning": "knowledge",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 176"
+  },
+  {
+    "latin": "ars",
+    "pos": "noun",
+    "endings": ["ars", "artis", "artem", "artes", "artium", "artibus"],
+    "meaning": "art; skill",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 176"
+  },
+  {
+    "latin": "labor",
+    "pos": "noun",
+    "endings": ["labor", "laboris", "laborem", "labores", "laborum", "laboribus"],
+    "meaning": "work; toil",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 177"
+  },
+  {
+    "latin": "opus",
+    "pos": "noun",
+    "endings": ["opus", "operis", "opus", "opera", "operum", "operibus"],
+    "meaning": "work; task",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 177"
+  },
+  {
+    "latin": "officium",
+    "pos": "noun",
+    "endings": ["officium", "officii", "officium", "officia", "officiorum", "officiis"],
+    "meaning": "duty; service",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 178"
+  },
+  {
+    "latin": "munus",
+    "pos": "noun",
+    "endings": ["munus", "muneris", "munus", "munera", "munerum", "muneribus"],
+    "meaning": "gift; duty",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 178"
+  },
+  {
+    "latin": "lex",
+    "pos": "noun",
+    "endings": ["lex", "legis", "legem", "leges", "legum", "legibus"],
+    "meaning": "law",
+    "notes": "3rd declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 179"
+  },
+  {
+    "latin": "ius",
+    "pos": "noun",
+    "endings": ["ius", "iuris", "ius", "iura", "iurum", "iuribus"],
+    "meaning": "right; justice",
+    "notes": "3rd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 179"
+  },
+  {
+    "latin": "poena",
+    "pos": "noun",
+    "endings": ["poena", "poenae", "poenam", "poenae", "poenarum", "poenis"],
+    "meaning": "punishment; penalty",
+    "notes": "1st declension feminine noun",
+    "frequency": "common",
+    "chapter": "Lesson 180"
+  },
+  {
+    "latin": "supplicium",
+    "pos": "noun",
+    "endings": ["supplicium", "supplicii", "supplicium", "supplicia", "suppliciorum", "suppliciis"],
+    "meaning": "execution; punishment",
+    "notes": "2nd declension neuter noun",
+    "frequency": "common",
+    "chapter": "Lesson 180"
+  },
+  {
+    "latin": "carcer",
+    "pos": "noun",
+    "endings": ["carcer", "carceris", "carcerem", "carceres", "carcerum", "carceribus"],
+    "meaning": "prison",
+    "notes": "3rd declension masculine noun",
+    "frequency": "common",
+    "chapter": "Lesson 180"
+  }
+]
+
+
+
+

@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Latin → English Dictionary</title>
+  <style>
+    :root {
+      --bg: #0f1320;
+      --card: #151a2c;
+      --text: #e8ecf1;
+      --muted: #9aa7bd;
+      --accent: #6aa9ff;
+      --accent-2: #9f7aea;
+      --border: #243047;
+      --chip: #1f2640;
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      height: 100%;
+      background: var(--bg);
+      color: var(--text);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+    }
+    .wrap { max-width: 980px; margin: 0 auto; padding: 16px; }
+    header { display: grid; gap: 8px; margin-bottom: 12px; }
+    .title { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+    .title h1 { font-size: 22px; margin: 0; }
+    .subtitle { font-size: 14px; color: var(--muted); }
+    .search-bar {
+      display: grid; grid-template-columns: 1fr auto auto; gap: 8px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 8px; position: sticky; top: 8px;
+      z-index: 10; backdrop-filter: blur(6px);
+    }
+    .input-wrap {
+      display: flex; align-items: center; gap: 8px;
+      padding: 10px 12px; border-radius: 10px;
+      background: var(--chip); border: 1px solid var(--border);
+    }
+    .input-wrap input {
+      width: 100%; border: none; outline: none;
+      background: transparent; color: var(--text); font-size: 16px;
+    }
+    .filters { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; padding: 6px 8px; }
+    .chip {
+      background: var(--chip); border: 1px solid var(--border);
+      color: var(--text); padding: 6px 10px; border-radius: 999px;
+      font-size: 13px; cursor: pointer; user-select: none;
+    }
+    .chip.active { border-color: var(--accent); color: var(--accent); }
+    .button {
+      background: linear-gradient(135deg, var(--accent), var(--accent-2));
+      color: white; border: none; border-radius: 10px;
+      padding: 10px 12px; font-weight: 600; cursor: pointer;
+    }
+    .grid { display: grid; gap: 8px; margin-top: 12px; }
+    .card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 12px; display: grid; gap: 6px;
+    }
+    .head { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .latin { font-weight: 700; font-size: 16px; }
+    .pos {
+      font-size: 12px; color: var(--muted);
+      background: var(--chip); border: 1px solid var(--border);
+      padding: 2px 8px; border-radius: 999px;
+    }
+    .pp { font-size: 13px; color: var(--muted); }
+    .meaning { font-size: 14px; line-height: 1.4; }
+    .meta { display: flex; gap: 8px; flex-wrap: wrap; font-size: 12px; color: var(--muted); }
+    .count { font-size: 12px; color: var(--muted); margin-top: 6px; }
+    .no-results {
+      border: 1px dashed var(--border); border-radius: 12px;
+      padding: 16px; color: var(--muted); text-align: center;
+    }
+    footer { margin: 18px 0; color: var(--muted); font-size: 12px; text-align: center; }
+    @media (min-width: 900px) { .grid { grid-template-columns: 1fr 1fr; } }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="title">
+        <h1>Latin → English Dictionary</h1>
+        <span class="subtitle">Search by any part of a word (suffixes, roots, meanings).</span>
+      </div>
+      <div class="search-bar">
+        <div class="input-wrap">
+          <input id="q" type="search" placeholder="Search Latin or English (e.g., -us, ‘love’, ‘camp’)" autofocus />
+        </div>
+        <div class="filters">
+          <span class="chip active" data-filter="all">All</span>
+          <span class="chip" data-filter="noun">Nouns</span>
+          <span class="chip" data-filter="verb">Verbs</span>
+          <span class="chip" data-filter="adj">Adjectives</span>
+          <span class="chip" data-filter="adv">Adverbs</span>
+          <span class="chip" data-filter="prep">Prepositions</span>
+          <span class="chip" data-filter="conj">Conjunctions</span>
+          <span class="chip" data-filter="interj">Interjections</span>
+        </div>
+        <button class="button" id="clear">Clear</button>
+      </div>
+    </header>
+
+    <div class="count" id="count"></div>
+    <div class="grid" id="results"></div>
+    <div class="no-results" id="empty" style="display:none">
+      No matches. Try a suffix like “-us” or a meaning like “help”.
+    </div>
+
+    <footer>
+      Built by Elijah. Latin data from *Second Year Latin*. Works offline.
+    </footer>
+  </div>
+  <script>
+  // --- UI refs ---
+  const qEl = document.getElementById('q');
+  const resultsEl = document.getElementById('results');
+  const emptyEl = document.getElementById('empty');
+  const countEl = document.getElementById('count');
+  const chipEls = Array.from(document.querySelectorAll('.chip'));
+  const clearBtn = document.getElementById('clear');
+
+  let DATA = [];
+  let currentFilter = 'all';
+
+  // --- Normalise text for searching ---
+  function norm(s = '') {
+    return String(s)
+      .toLowerCase()
+      .normalize('NFD')
+      .replace(/[\u0300-\u036f]/g, '') // remove diacritics
+      .replace(/[“”‘’'"]/g, '') // strip quotes
+      .trim();
+  }
+
+  // --- Matching logic ---
+  function matches(entry, query, filter) {
+    const nq = norm(query).replace(/^[\-\s]+|[\-\s]+$/g, ''); // strip leading/trailing hyphens/spaces
+    const inFilter = (filter === 'all') || ((entry.pos || '').startsWith(filter));
+    if (!inFilter) return false;
+    if (!nq) return true;
+
+    const latin = norm(entry.latin || '');
+    const pp = (entry.pp || []).map(norm).join(' ');
+    const endings = (entry.endings || []).map(norm).join(' ');
+    const meaning = norm(entry.meaning || '');
+
+    return (
+      latin.includes(nq) ||
+      pp.includes(nq) ||
+      endings.includes(nq) ||
+      meaning.includes(nq)
+    );
+  }
+
+  // --- Render results ---
+  function render() {
+    const q = qEl.value || '';
+    const visible = DATA.filter(e => matches(e, q, currentFilter));
+    resultsEl.innerHTML = '';
+    if (!visible.length) {
+      emptyEl.style.display = 'block';
+      countEl.textContent = '';
+      return;
+    }
+    emptyEl.style.display = 'none';
+    countEl.textContent = `${visible.length} / ${DATA.length} entries`;
+
+    const frag = document.createDocumentFragment();
+    visible.forEach(entry => {
+      const card = document.createElement('div');
+      card.className = 'card';
+
+      const head = document.createElement('div');
+      head.className = 'head';
+
+      const latinSpan = document.createElement('div');
+      latinSpan.className = 'latin';
+      latinSpan.textContent = entry.latin || '';
+
+      const posSpan = document.createElement('div');
+      posSpan.className = 'pos';
+      posSpan.textContent = entry.pos || '';
+
+      head.appendChild(latinSpan);
+      head.appendChild(posSpan);
+
+      const pp = document.createElement('div');
+      pp.className = 'pp';
+      if (entry.pp && entry.pp.length) pp.textContent = entry.pp.join(' • ');
+
+      const meaning = document.createElement('div');
+      meaning.className = 'meaning';
+      meaning.textContent = entry.meaning || '';
+
+      const meta = document.createElement('div');
+      meta.className = 'meta';
+      if (entry.chapter) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.chapter }));
+      if (entry.frequency) meta.appendChild(Object.assign(document.createElement('span'), { textContent: entry.frequency }));
+
+      card.appendChild(head);
+      if (pp.textContent) card.appendChild(pp);
+      card.appendChild(meaning);
+      card.appendChild(meta);
+
+      frag.appendChild(card);
+    });
+
+    resultsEl.appendChild(frag);
+  }
+
+  // --- Load JSON ---
+  async function loadData() {
+    try {
+      const res = await fetch('latin_vocab.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      DATA = await res.json();
+      render();
+    } catch (err) {
+      console.error('Error loading vocab file:', err);
+      emptyEl.style.display = 'block';
+      emptyEl.textContent = 'Failed to load latin_vocab.json. Make sure the folder is served over HTTP (python -m http.server) and open the page via http://localhost:8000/';
+      countEl.textContent = '';
+    }
+  }
+
+  // --- UI events ---
+  qEl.addEventListener('input', render);
+  clearBtn.addEventListener('click', () => {
+    qEl.value = '';
+    render();
+  });
+
+  chipEls.forEach(chip => {
+    chip.addEventListener('click', () => {
+      chipEls.forEach(c => c.classList.remove('active'));
+      chip.classList.add('active');
+      currentFilter = chip.dataset.filter || 'all';
+      render();
+    });
+  });
+
+  // --- Start ---
+  loadData();
+</script>
+</body>
+</html>
